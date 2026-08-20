@@ -1,0 +1,25 @@
+Options -Indexes
+ServerSignature Off
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Protect application, dependency and runtime directories in shared hosting.
+    RewriteRule ^(?:app|vendor|writable)(?:/|$) - [F,L,NC]
+    RewriteRule ^(?:env|composer\.(?:json|lock)|spark|preload\.php|LICENSE)$ - [F,L,NC]
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^([\s\S]*)$ index.php/$1 [L,NC,QSA]
+
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+</IfModule>
+
+<IfModule !mod_rewrite.c>
+    ErrorDocument 404 index.php
+</IfModule>
+
+<FilesMatch "^(env|composer\.(json|lock)|spark|preload\.php|LICENSE)$">
+    Require all denied
+</FilesMatch>

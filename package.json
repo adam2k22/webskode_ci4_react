@@ -1,0 +1,21 @@
+{
+  "name": "kode-ci4-react",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy:zip": "powershell -ExecutionPolicy Bypass -File scripts/build-deploy.ps1"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-icons": "^5.7.0",
+    "react-router-dom": "^7.18.2",
+    "vite": "latest"
+  }
+}

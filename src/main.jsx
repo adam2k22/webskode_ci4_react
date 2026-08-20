@@ -1,0 +1,15 @@
+import React from 'react'
+import { createRoot } from 'react-dom/client'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import HomePage from './pages/Home/HomePage'
+import ServicesPage from './pages/Services/ServicesPage'
+import PackagesPage from './pages/Packages/PackagesPage'
+import PortfolioPage from './pages/Portfolio/PortfolioPage'
+import AboutPage from './pages/About/AboutPage'
+import ContactPage from './pages/Contact/ContactPage'
+import TechnologiesPage from './pages/Technologies/TechnologiesPage'
+import SiteMeta from './components/SiteMeta/SiteMeta'
+import MouseEffect from './components/MouseEffect/MouseEffect'
+import './style.css'
+
+createRoot(document.getElementById('root')).render(<BrowserRouter><SiteMeta/><MouseEffect/><Routes><Route path="/" element={<HomePage/>}/><Route path="/services" element={<ServicesPage/>}/><Route path="/packages" element={<PackagesPage/>}/><Route path="/portfolio" element={<PortfolioPage/>}/><Route path="/technologies" element={<TechnologiesPage/>}/><Route path="/about" element={<AboutPage/>}/><Route path="/contact" element={<ContactPage/>}/></Routes></BrowserRouter>)
