@@ -2,9 +2,9 @@ import { ArrowRight, Check } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
 const packages = [
-  { name: 'Launch', price: '₹29K', subtitle: 'Business website starter', features: ['Up to 5 responsive pages', 'Contact and enquiry forms', 'Basic SEO setup', 'Performance optimization'] },
-  { name: 'Growth', price: '₹49K', subtitle: 'For growing digital brands', popular: true, features: ['Up to 12 custom pages', 'CMS and API integrations', 'Advanced SEO foundation', 'Analytics and conversion tracking'] },
-  { name: 'Scale', price: '₹89K', subtitle: 'Advanced web solutions', features: ['Custom full-stack development', 'Secure backend and database', 'Business workflow integrations', 'Launch and technical support'] }
+  { name: 'Launch', price: '₹14K', subtitle: 'Business website starter', features: ['Up to 5 responsive pages', 'Contact and enquiry forms', 'Basic SEO setup', 'Performance optimization'] },
+  { name: 'Growth', price: '₹29K', subtitle: 'For growing digital brands', popular: true, features: ['Up to 12 custom pages', 'CMS and API integrations', 'Advanced SEO foundation', 'Analytics and conversion tracking'] },
+  { name: 'Scale', price: '₹49K', subtitle: 'Advanced web solutions', features: ['Custom full-stack development', 'Secure backend and database', 'Business workflow integrations', 'Launch and technical support'] }
 ]
 
 export default function PackagesPreview() {

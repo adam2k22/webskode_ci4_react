@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { ArrowUp, Mail, MessageCircle, Phone, Send, X } from 'lucide-react'
+import { ArrowUp, Mail, MapPin, MessageCircle, Phone, Send, X } from 'lucide-react'
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import webskodeLogo from '../../assets/webskode-logo.png'
@@ -21,7 +21,7 @@ export default function Footer() {
       <div className="footer-main">
         <div className="footer-brand"><Link to="/"><img src={webskodeLogo} alt="WebsKode"/></Link><p>Improve efficiency and customer experience with dependable websites, software, mobile apps and digital growth services.</p></div>
         <div className="footer-links"><div><Link to="/about">About Us</Link><Link to="/packages">Packages</Link><Link to="/portfolio">Portfolio</Link><Link to="/services">Services</Link></div><div><Link to="/technologies">Technologies</Link><Link to="/contact">Contact Us</Link><a href="mailto:info@webskode.com">Get a Quote</a></div></div>
-        <div className="footer-contact"><div className="footer-mini-cards"><span>&lt;/&gt;</span><span>UI</span><span>APP</span></div><a href="tel:+919870438617"><i><Phone size={17}/></i>+91 98704 38617</a><a href="mailto:info@webskode.com"><i><Mail size={17}/></i>info@webskode.com</a></div>
+        <div className="footer-contact"><div className="footer-mini-cards"><span>&lt;/&gt;</span><span>UI</span><span>APP</span></div><a href="tel:+919870438617"><i><Phone size={17}/></i>+91 98704 38617</a><a href="mailto:info@webskode.com"><i><Mail size={17}/></i>info@webskode.com</a><div className="footer-address"><i><MapPin size={17}/></i><span>Corner Shop, Gali No. 6, Palam Colony, Corner, Tikri Rd, Sector 28, Vasant Vihar, Karnal, Haryana 132001</span></div></div>
       </div>
       <div className="footer-social"><a href="#" aria-label="LinkedIn"><FaLinkedinIn/>LinkedIn</a><a href="#" aria-label="Facebook"><FaFacebookF/>Facebook</a><a href="#" aria-label="Instagram"><FaInstagram/>Instagram</a><a href="mailto:info@webskode.com"><Send size={17}/>Email Us</a></div>
       <div className="footer-bottom"><p>© 2026 <b>WebsKode</b>. All Rights Reserved.</p></div>

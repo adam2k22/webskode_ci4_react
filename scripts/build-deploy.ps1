@@ -30,7 +30,7 @@ try {
 
     Write-Host '[2/5] Preparing an isolated deployment folder...'
     New-Item -ItemType Directory -Path $stageRoot | Out-Null
-    Copy-Item -Recurse -Force app, writable -Destination $stageRoot
+    Copy-Item -Recurse -Force app, writable, vendor -Destination $stageRoot
     Get-ChildItem -LiteralPath (Join-Path $projectRoot 'public') -Force | Copy-Item -Destination $stageRoot -Recurse -Force
     Copy-Item -Force env, composer.json, composer.lock, spark, preload.php, LICENSE -Destination $stageRoot
     Copy-Item -Force (Join-Path $PSScriptRoot 'deploy-index.php') -Destination (Join-Path $stageRoot 'index.php')
