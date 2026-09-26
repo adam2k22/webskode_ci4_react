@@ -4,6 +4,7 @@ import { useLocation } from 'react-router-dom'
 const pages = {
   '/': ['WebsKode | Website, Software & App Development', 'WebsKode builds high-performing websites, scalable software, mobile apps, data systems and digital growth solutions.'],
   '/services': ['Services | WebsKode', 'Explore WebsKode services for websites, frontend and backend development, software, mobile apps, data management, marketing and SEO.'],
+  '/services/logo-design': ['Logo Design | WebsKode', 'Create a distinctive, versatile logo and visual identity for your business with WebsKode.'],
   '/packages': ['Development Packages | WebsKode', 'Compare WebsKode website and digital development packages for startups, growing businesses and established brands.'],
   '/portfolio': ['Portfolio | WebsKode', 'Explore selected website and digital product projects designed and developed by WebsKode.'],
   '/technologies': ['Technologies | WebsKode', 'Discover the frontend, backend, mobile, database and CMS technologies used by WebsKode.'],

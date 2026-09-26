@@ -8,8 +8,9 @@ import PortfolioPage from './pages/Portfolio/PortfolioPage'
 import AboutPage from './pages/About/AboutPage'
 import ContactPage from './pages/Contact/ContactPage'
 import TechnologiesPage from './pages/Technologies/TechnologiesPage'
+import LogoDesignPage from './pages/Services/LogoDesignPage'
 import SiteMeta from './components/SiteMeta/SiteMeta'
 import MouseEffect from './components/MouseEffect/MouseEffect'
 import './style.css'
 
-createRoot(document.getElementById('root')).render(<BrowserRouter><SiteMeta/><MouseEffect/><Routes><Route path="/" element={<HomePage/>}/><Route path="/services" element={<ServicesPage/>}/><Route path="/packages" element={<PackagesPage/>}/><Route path="/portfolio" element={<PortfolioPage/>}/><Route path="/technologies" element={<TechnologiesPage/>}/><Route path="/about" element={<AboutPage/>}/><Route path="/contact" element={<ContactPage/>}/></Routes></BrowserRouter>)
+createRoot(document.getElementById('root')).render(<BrowserRouter><SiteMeta/><MouseEffect/><Routes><Route path="/" element={<HomePage/>}/><Route path="/services" element={<ServicesPage/>}/><Route path="/services/logo-design" element={<LogoDesignPage/>}/><Route path="/packages" element={<PackagesPage/>}/><Route path="/portfolio" element={<PortfolioPage/>}/><Route path="/technologies" element={<TechnologiesPage/>}/><Route path="/about" element={<AboutPage/>}/><Route path="/contact" element={<ContactPage/>}/></Routes></BrowserRouter>)
