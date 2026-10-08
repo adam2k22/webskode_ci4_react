@@ -5,6 +5,9 @@ import { Link } from 'react-router-dom'
 import webskodeLogo from '../../assets/webskode-logo.png'
 import ContactForm from '../ContactForm/ContactForm'
 import ContactCTA from '../ContactCTA/ContactCTA'
+import FooterInfographic from '../FooterInfographic/FooterInfographic'
+import { serviceCatalog } from '../../data/serviceCatalog'
+import { launchBundle, packageCategories } from '../../data/packages'
 
 export default function Footer() {
   const [contactOpen, setContactOpen] = useState(false)
@@ -18,10 +21,18 @@ export default function Footer() {
     <ContactCTA/>
     <footer className="site-footer">
       <div className="footer-accent"/>
-      <div className="footer-main">
-        <div className="footer-brand"><Link to="/"><img src={webskodeLogo} alt="WebsKode"/></Link><p>Improve efficiency and customer experience with dependable websites, software, mobile apps and digital growth services.</p></div>
-        <div className="footer-links"><div><Link to="/about">About Us</Link><Link to="/packages">Packages</Link><Link to="/portfolio">Portfolio</Link><Link to="/services">Services</Link></div><div><Link to="/technologies">Technologies</Link><Link to="/contact">Contact Us</Link><a href="mailto:info@webskode.com">Get a Quote</a></div></div>
-        <div className="footer-contact"><div className="footer-mini-cards"><span>&lt;/&gt;</span><span>UI</span><span>APP</span></div><a href="tel:+919870438617"><i><Phone size={17}/></i>+91 98704 38617</a><a href="mailto:info@webskode.com"><i><Mail size={17}/></i>info@webskode.com</a><div className="footer-address"><i><MapPin size={17}/></i><span>Corner Shop, Gali No. 6, Palam Colony, Corner, Tikri Rd, Sector 28, Vasant Vihar, Karnal, Haryana 132001</span></div></div>
+      <div className="footer-top">
+        <div className="footer-brand">
+          <Link to="/"><img src={webskodeLogo} alt="WebsKode"/></Link>
+          <p>Improve efficiency and customer experience with dependable websites, software, mobile apps and digital growth services.</p>
+          <div className="footer-contact"><a href="tel:+919870438617"><i><Phone size={17}/></i>+91 98704 38617</a><a href="mailto:info@webskode.com"><i><Mail size={17}/></i>info@webskode.com</a><div className="footer-address"><i><MapPin size={17}/></i><span>Corner Shop, Gali No. 6, Palam Colony, Corner, Tikri Rd, Sector 28, Vasant Vihar, Karnal, Haryana 132001</span></div></div>
+        </div>
+        <FooterInfographic/>
+      </div>
+      <div className="footer-columns">
+        <div className="footer-column" role="navigation" aria-label="Company"><h3>Company</h3><div className="footer-column-links"><Link to="/about">About Us</Link><Link to="/services">Services</Link><Link to="/packages">Packages</Link><Link to="/portfolio">Portfolio</Link><Link to="/technologies">Technologies</Link><Link to="/contact">Contact Us</Link><a href="mailto:info@webskode.com">Get a Quote</a></div></div>
+        <div className="footer-column" role="navigation" aria-label="Services"><h3><Link to="/services">Services</Link></h3><div className="footer-column-links two">{serviceCatalog.map(({ slug, title }) => <Link to={`/services/${slug}`} key={slug}>{title}</Link>)}</div></div>
+        <div className="footer-column" role="navigation" aria-label="Packages"><h3><Link to="/packages">Packages</Link></h3><div className="footer-column-links two">{packageCategories.map(({ id, title }) => <Link to={`/packages#${id}`} key={id}>{title}</Link>)}<Link to={`/packages#${launchBundle.id}`}>{launchBundle.title}</Link></div></div>
       </div>
       <div className="footer-social"><a href="#" aria-label="LinkedIn"><FaLinkedinIn/>LinkedIn</a><a href="#" aria-label="Facebook"><FaFacebookF/>Facebook</a><a href="#" aria-label="Instagram"><FaInstagram/>Instagram</a><a href="mailto:info@webskode.com"><Send size={17}/>Email Us</a></div>
       <div className="footer-bottom"><p>© 2026 <b>WebsKode</b>. All Rights Reserved.</p></div>

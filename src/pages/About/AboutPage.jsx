@@ -1,7 +1,7 @@
 import { ArrowUpRight, CheckCircle2, Code2, HeartHandshake, Lightbulb, Target } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import PageLayout from '../../components/PageLayout/PageLayout'
-import teamImage from '../../assets/why-us-engineer.png'
+import LiveCharacter from '../../components/LiveCharacter/LiveCharacter'
 
 export default function AboutPage() {
   const values = [
@@ -18,7 +18,7 @@ export default function AboutPage() {
     </section>
 
     <section className="about-company">
-      <div className="about-company-image"><img src={teamImage} alt="Cartoon illustration of a WebsKode developer"/><span>Ideas engineered<br/>for growth.</span></div>
+      <div className="about-company-image"><LiveCharacter character="engineer" alt="Cartoon illustration of a WebsKode developer"/><span>Ideas engineered<br/>for growth.</span></div>
       <div className="about-company-copy"><span>Why WebsKode</span><h2>One team for strategy, design, code and growth.</h2><p>Fewer handoffs mean clearer decisions, better quality and a product that feels consistent from the first screen to the final integration.</p>
         <div className="about-benefits"><span><CheckCircle2/>Strategy shaped around your goals</span><span><CheckCircle2/>Design and engineering under one roof</span><span><CheckCircle2/>Support that continues after launch</span></div>
         <div className="about-numbers"><strong>360°<small>Digital capability</small></strong><strong>06<small>Core services</small></strong><strong>02<small>Mobile platforms</small></strong></div>

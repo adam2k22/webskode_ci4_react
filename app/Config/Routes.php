@@ -3,6 +3,8 @@ use CodeIgniter\Router\RouteCollection;
 /** @var RouteCollection $routes */
 $routes->get('/', 'Home::index');
 $routes->get('services', 'Home::index');
+$routes->get('services/(:segment)', 'Home::index');
+$routes->get('services/(:segment)/(:segment)', 'Home::index');
 $routes->get('packages', 'Home::index');
 $routes->get('portfolio', 'Home::index');
 $routes->get('technologies', 'Home::index');

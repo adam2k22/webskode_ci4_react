@@ -4,9 +4,9 @@ import { Link, useLocation } from 'react-router-dom'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 
-export default function PageLayout({ eyebrow, title, intro, introAlign = '', children }) {
+export default function PageLayout({ name, eyebrow, title, intro, introAlign = '', children }) {
   const { pathname } = useLocation()
-  const pageName = { '/services': 'Our Services', '/services/logo-design': 'Logo Design', '/packages': 'Packages', '/portfolio': 'Portfolio', '/technologies': 'Technologies', '/about': 'About Us', '/contact': 'Contact Us' }[pathname] || eyebrow
+  const pageName = name || { '/services': 'Our Services', '/services/logo-design': 'Logo Design', '/packages': 'Packages', '/portfolio': 'Portfolio', '/technologies': 'Technologies', '/about': 'About Us', '/contact': 'Contact Us' }[pathname] || eyebrow
 
   useEffect(() => { window.scrollTo(0, 0) }, [pathname])
 

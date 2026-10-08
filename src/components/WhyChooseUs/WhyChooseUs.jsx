@@ -1,7 +1,6 @@
 import { ArrowUpRight, BadgeCheck, Quote, Star } from 'lucide-react'
 import { Link } from 'react-router-dom'
-import engineerImage from '../../assets/why-us-engineer.png'
-import designerImage from '../../assets/why-us-designer.png'
+import LiveCharacter from '../LiveCharacter/LiveCharacter'
 
 export default function WhyChooseUs() {
   return <section className="why-us">
@@ -14,8 +13,8 @@ export default function WhyChooseUs() {
       <Link className="why-cta" to="/about">Learn More <ArrowUpRight size={18}/></Link>
     </div>
     <div className="why-us-visual">
-      <img className="why-img back" src={engineerImage} alt="Cartoon illustration of a WebsKode engineer"/>
-      <img className="why-img front" src={designerImage} alt="Cartoon illustration of a WebsKode product designer"/>
+      <LiveCharacter className="why-img back" character="engineer" alt="Cartoon illustration of a WebsKode engineer"/>
+      <LiveCharacter className="why-img front" character="designer" alt="Cartoon illustration of a WebsKode product designer"/>
       <div className="review-card"><div className="avatar-row"><i>W</i><i>K</i><i>D</i><i>+</i></div><div className="review-stars">{[1,2,3,4,5].map(n=><Star key={n} size={18} fill="currentColor"/>)}</div><b>20k+ Reviews</b></div>
     </div>
   </section>

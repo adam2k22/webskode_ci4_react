@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="o" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff6a2b"/><stop offset="1" stop-color="#dc3d0b"/></linearGradient>
+    <pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0v40" fill="none" stroke="#fff" stroke-opacity=".035"/></pattern>
+    <radialGradient id="glow"><stop offset="0" stop-color="#ff5a1f" stop-opacity=".28"/><stop offset="1" stop-color="#ff5a1f" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="#1c1310"/>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <circle cx="400" cy="310" r="330" fill="url(#glow)"/>
+
+  <!-- Desktop artboard -->
+  <rect x="150" y="110" width="430" height="330" rx="18" fill="#fff6f0"/>
+  <path d="M150 128a18 18 0 0 1 18-18h394a18 18 0 0 1 18 18v20H150z" fill="#f3dfd3"/>
+  <circle cx="174" cy="129" r="5" fill="#ff5a1f"/><circle cx="191" cy="129" r="5" fill="#ffb693"/><circle cx="208" cy="129" r="5" fill="#fff"/>
+  <rect x="174" y="166" width="34" height="12" rx="4" fill="#ff5a1f"/>
+  <path d="M440 172h30M484 172h30M528 172h30" stroke="#d9c3b6" stroke-width="6" stroke-linecap="round"/>
+  <rect x="174" y="196" width="382" height="118" rx="12" fill="url(#o)"/>
+  <path d="M196 228h150M196 250h104" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+  <rect x="196" y="272" width="88" height="24" rx="12" fill="#fff"/>
+  <circle cx="500" cy="232" r="16" fill="#ffb693"/><path d="M410 314l52-64 28 34 20-19 46 49z" fill="#ff8a55"/>
+  <g fill="#fff" stroke="#f0d9cc" stroke-width="2"><rect x="174" y="332" width="116" height="88" rx="10"/><rect x="307" y="332" width="116" height="88" rx="10"/><rect x="440" y="332" width="116" height="88" rx="10"/></g>
+  <g fill="#ffe6d8"><circle cx="198" cy="358" r="12"/><circle cx="331" cy="358" r="12"/><circle cx="464" cy="358" r="12"/></g>
+  <path d="M186 388h80M186 404h54M319 388h80M319 404h54M452 388h80M452 404h54" stroke="#e6d5cb" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Selection frame and cursor -->
+  <rect x="190" y="266" width="100" height="36" fill="none" stroke="#1c1310" stroke-width="2" stroke-dasharray="6 5"/>
+  <g fill="#fff" stroke="#1c1310" stroke-width="2"><rect x="185" y="261" width="10" height="10"/><rect x="285" y="261" width="10" height="10"/><rect x="185" y="297" width="10" height="10"/><rect x="285" y="297" width="10" height="10"/></g>
+  <path d="M300 296v40l11-10 8 17 8-3.500-8-16.500h15z" fill="#1c1310" stroke="#fff" stroke-width="2.500" stroke-linejoin="round"/>
+
+  <!-- Phone artboard -->
+  <rect x="540" y="230" width="150" height="290" rx="24" fill="#2a1c16" stroke="#ff5a1f" stroke-width="3"/>
+  <rect x="552" y="246" width="126" height="258" rx="14" fill="#fff6f0"/>
+  <rect x="592" y="238" width="46" height="6" rx="3" fill="#ff5a1f"/>
+  <rect x="564" y="262" width="102" height="70" rx="10" fill="url(#o)"/>
+  <path d="M564 352h70M564 368h46" stroke="#d9c3b6" stroke-width="7" stroke-linecap="round"/>
+  <rect x="564" y="390" width="102" height="40" rx="9" fill="#fff" stroke="#f0d9cc" stroke-width="2"/>
+  <rect x="564" y="442" width="102" height="30" rx="15" fill="#1c1310"/><path d="M596 457h38" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Component panel -->
+  <rect x="80" y="290" width="150" height="200" rx="18" fill="#2a1c16" stroke="#ffffff1f" stroke-width="2"/>
+  <path d="M100 318h60" stroke="#ffb693" stroke-width="6" stroke-linecap="round"/>
+  <rect x="100" y="340" width="56" height="26" rx="13" fill="#ff5a1f"/><circle cx="143" cy="353" r="9" fill="#fff"/>
+  <rect x="168" y="340" width="42" height="26" rx="13" fill="#4a362d"/><circle cx="181" cy="353" r="9" fill="#bcaaa0"/>
+  <rect x="100" y="384" width="110" height="8" rx="4" fill="#4a362d"/><rect x="100" y="384" width="70" height="8" rx="4" fill="#ff5a1f"/><circle cx="170" cy="388" r="9" fill="#fff"/>
+  <circle cx="114" cy="440" r="14" fill="#ff5a1f"/><circle cx="150" cy="440" r="14" fill="#ffb693"/><circle cx="186" cy="440" r="14" fill="#fff6f0"/>
+
+  <!-- User flow -->
+  <path d="M610 150h70a14 14 0 0 1 14 14v36" fill="none" stroke="#ff5a1f" stroke-width="3" stroke-dasharray="7 7" stroke-linecap="round"/>
+  <circle cx="610" cy="150" r="9" fill="#ff5a1f"/><circle cx="694" cy="206" r="9" fill="#fff6f0"/>
+</svg>
