@@ -1,0 +1,4760 @@
+{
+ "siteUrl": "https://webskode.com",
+ "image": "https://webskode.com/assets/webskode-logo.png",
+ "fallback": {
+  "title": "WebsKode | Digital Technology Partner",
+  "description": "WebsKode creates dependable websites, software, mobile apps and digital growth solutions."
+ },
+ "siteJsonLd": [
+  {
+   "@type": "ProfessionalService",
+   "@id": "https://webskode.com/#organization",
+   "name": "WebsKode",
+   "url": "https://webskode.com/",
+   "logo": "https://webskode.com/assets/webskode-logo.png",
+   "image": "https://webskode.com/assets/webskode-logo.png",
+   "description": "WebsKode builds high-performing websites, scalable software, mobile apps, data systems and digital growth solutions.",
+   "email": "info@webskode.com",
+   "telephone": "+919870438617",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Corner Shop, Gali No. 6, Palam Colony, Corner, Tikri Rd, Sector 28, Vasant Vihar",
+    "addressLocality": "Karnal",
+    "addressRegion": "Haryana",
+    "postalCode": "132001",
+    "addressCountry": "IN"
+   }
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://webskode.com/#website",
+   "url": "https://webskode.com/",
+   "name": "WebsKode",
+   "publisher": {
+    "@id": "https://webskode.com/#organization"
+   }
+  }
+ ],
+ "routes": {
+  "/": {
+   "title": "WebsKode | Website, Software & App Development",
+   "description": "WebsKode builds high-performing websites, scalable software, mobile apps, data systems and digital growth solutions.",
+   "canonical": "https://webskode.com/",
+   "jsonLd": []
+  },
+  "/services": {
+   "title": "Services | WebsKode",
+   "description": "Explore WebsKode services across software, websites, mobile apps, cloud, AI and automation, e-commerce, integrations, design, support and digital marketing.",
+   "canonical": "https://webskode.com/services",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      }
+     ]
+    }
+   ]
+  },
+  "/services/logo-design": {
+   "title": "Logo Design | WebsKode",
+   "description": "Create a distinctive, versatile logo and visual identity for your business with WebsKode.",
+   "canonical": "https://webskode.com/services/logo-design",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Logo Design",
+       "item": "https://webskode.com/services/logo-design"
+      }
+     ]
+    }
+   ]
+  },
+  "/packages": {
+   "title": "Development Packages | WebsKode",
+   "description": "Compare WebsKode website and digital development packages for startups, growing businesses and established brands.",
+   "canonical": "https://webskode.com/packages",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Packages",
+       "item": "https://webskode.com/packages"
+      }
+     ]
+    }
+   ]
+  },
+  "/portfolio": {
+   "title": "Portfolio | WebsKode",
+   "description": "Explore selected website and digital product projects designed and developed by WebsKode.",
+   "canonical": "https://webskode.com/portfolio",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Portfolio",
+       "item": "https://webskode.com/portfolio"
+      }
+     ]
+    }
+   ]
+  },
+  "/technologies": {
+   "title": "Technologies | WebsKode",
+   "description": "Discover the frontend, backend, mobile, database and CMS technologies used by WebsKode.",
+   "canonical": "https://webskode.com/technologies",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Technologies",
+       "item": "https://webskode.com/technologies"
+      }
+     ]
+    }
+   ]
+  },
+  "/about": {
+   "title": "About WebsKode | Digital Technology Partner",
+   "description": "Learn about WebsKode, our practical approach and the principles behind our digital work.",
+   "canonical": "https://webskode.com/about",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "About Us",
+       "item": "https://webskode.com/about"
+      }
+     ]
+    }
+   ]
+  },
+  "/contact": {
+   "title": "Contact WebsKode | Start Your Project",
+   "description": "Contact WebsKode to discuss your website, software, mobile app, data or digital marketing project.",
+   "canonical": "https://webskode.com/contact",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Contact Us",
+       "item": "https://webskode.com/contact"
+      }
+     ]
+    }
+   ]
+  },
+  "/services/software-application-development": {
+   "title": "Software & Application Development | WebsKode",
+   "description": "Custom software, platforms and business systems built around the way you work.",
+   "canonical": "https://webskode.com/services/software-application-development",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Software & Application Development",
+       "item": "https://webskode.com/services/software-application-development"
+      }
+     ]
+    }
+   ]
+  },
+  "/services/software-application-development/custom-software-development": {
+   "title": "Custom Software Development | WebsKode",
+   "description": "Purpose-built applications designed around your processes, so your team stops bending its work to fit generic tools.",
+   "canonical": "https://webskode.com/services/software-application-development/custom-software-development",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Software & Application Development",
+       "item": "https://webskode.com/services/software-application-development"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Custom Software Development",
+       "item": "https://webskode.com/services/software-application-development/custom-software-development"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Custom Software Development",
+     "description": "Purpose-built applications designed around your processes, so your team stops bending its work to fit generic tools.",
+     "url": "https://webskode.com/services/software-application-development/custom-software-development",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/software-application-development/web-application-development": {
+   "title": "Web Application Development | WebsKode",
+   "description": "Secure, responsive web applications your team and customers can use from any device, with nothing to install.",
+   "canonical": "https://webskode.com/services/software-application-development/web-application-development",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Software & Application Development",
+       "item": "https://webskode.com/services/software-application-development"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Web Application Development",
+       "item": "https://webskode.com/services/software-application-development/web-application-development"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Web Application Development",
+     "description": "Secure, responsive web applications your team and customers can use from any device, with nothing to install.",
+     "url": "https://webskode.com/services/software-application-development/web-application-development",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/software-application-development/saas-development": {
+   "title": "SaaS Development | WebsKode",
+   "description": "Multi-tenant SaaS platforms with subscriptions, billing and admin tools, ready to onboard paying customers.",
+   "canonical": "https://webskode.com/services/software-application-development/saas-development",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Software & Application Development",
+       "item": "https://webskode.com/services/software-application-development"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "SaaS Development",
+       "item": "https://webskode.com/services/software-application-development/saas-development"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "SaaS Development",
+     "description": "Multi-tenant SaaS platforms with subscriptions, billing and admin tools, ready to onboard paying customers.",
+     "url": "https://webskode.com/services/software-application-development/saas-development",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/software-application-development/erp-software-development": {
+   "title": "ERP Software Development | WebsKode",
+   "description": "Custom ERP that connects sales, purchases, stock, accounts and HR, giving you one accurate view of operations.",
+   "canonical": "https://webskode.com/services/software-application-development/erp-software-development",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Software & Application Development",
+       "item": "https://webskode.com/services/software-application-development"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "ERP Software Development",
+       "item": "https://webskode.com/services/software-application-development/erp-software-development"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "ERP Software Development",
+     "description": "Custom ERP that connects sales, purchases, stock, accounts and HR, giving you one accurate view of operations.",
+     "url": "https://webskode.com/services/software-application-development/erp-software-development",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/software-application-development/crm-development": {
+   "title": "CRM Development | WebsKode",
+   "description": "A CRM built around your sales process to capture leads, follow up on time and see your pipeline clearly.",
+   "canonical": "https://webskode.com/services/software-application-development/crm-development",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Software & Application Development",
+       "item": "https://webskode.com/services/software-application-development"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "CRM Development",
+       "item": "https://webskode.com/services/software-application-development/crm-development"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "CRM Development",
+     "description": "A CRM built around your sales process to capture leads, follow up on time and see your pipeline clearly.",
+     "url": "https://webskode.com/services/software-application-development/crm-development",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/software-application-development/inventory-and-stock-management-software": {
+   "title": "Inventory & Stock Management Software | WebsKode",
+   "description": "Track stock across locations in real time, with purchases, transfers and low-stock alerts built in.",
+   "canonical": "https://webskode.com/services/software-application-development/inventory-and-stock-management-software",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Software & Application Development",
+       "item": "https://webskode.com/services/software-application-development"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Inventory & Stock Management Software",
+       "item": "https://webskode.com/services/software-application-development/inventory-and-stock-management-software"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Inventory & Stock Management Software",
+     "description": "Track stock across locations in real time, with purchases, transfers and low-stock alerts built in.",
+     "url": "https://webskode.com/services/software-application-development/inventory-and-stock-management-software",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/software-application-development/billing-and-invoicing-software": {
+   "title": "Billing & Invoicing Software | WebsKode",
+   "description": "GST-ready invoicing with customer ledgers, payment tracking and reports your accountant will appreciate.",
+   "canonical": "https://webskode.com/services/software-application-development/billing-and-invoicing-software",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Software & Application Development",
+       "item": "https://webskode.com/services/software-application-development"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Billing & Invoicing Software",
+       "item": "https://webskode.com/services/software-application-development/billing-and-invoicing-software"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Billing & Invoicing Software",
+     "description": "GST-ready invoicing with customer ledgers, payment tracking and reports your accountant will appreciate.",
+     "url": "https://webskode.com/services/software-application-development/billing-and-invoicing-software",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/software-application-development/pos-point-of-sale-systems": {
+   "title": "POS (Point of Sale) Systems | WebsKode",
+   "description": "Quick, reliable point of sale for retail and restaurants, with barcode billing and stock that updates at every sale.",
+   "canonical": "https://webskode.com/services/software-application-development/pos-point-of-sale-systems",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Software & Application Development",
+       "item": "https://webskode.com/services/software-application-development"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "POS (Point of Sale) Systems",
+       "item": "https://webskode.com/services/software-application-development/pos-point-of-sale-systems"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "POS (Point of Sale) Systems",
+     "description": "Quick, reliable point of sale for retail and restaurants, with barcode billing and stock that updates at every sale.",
+     "url": "https://webskode.com/services/software-application-development/pos-point-of-sale-systems",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/software-application-development/business-management-software": {
+   "title": "Business Management Software | WebsKode",
+   "description": "A single dashboard for tasks, staff, customers and finances, tailored to how your business actually runs.",
+   "canonical": "https://webskode.com/services/software-application-development/business-management-software",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Software & Application Development",
+       "item": "https://webskode.com/services/software-application-development"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Business Management Software",
+       "item": "https://webskode.com/services/software-application-development/business-management-software"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Business Management Software",
+     "description": "A single dashboard for tasks, staff, customers and finances, tailored to how your business actually runs.",
+     "url": "https://webskode.com/services/software-application-development/business-management-software",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/software-application-development/booking-and-appointment-systems": {
+   "title": "Booking & Appointment Systems | WebsKode",
+   "description": "Online booking with live availability, reminders and payments for clinics, salons, consultants and rentals.",
+   "canonical": "https://webskode.com/services/software-application-development/booking-and-appointment-systems",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Software & Application Development",
+       "item": "https://webskode.com/services/software-application-development"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Booking & Appointment Systems",
+       "item": "https://webskode.com/services/software-application-development/booking-and-appointment-systems"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Booking & Appointment Systems",
+     "description": "Online booking with live availability, reminders and payments for clinics, salons, consultants and rentals.",
+     "url": "https://webskode.com/services/software-application-development/booking-and-appointment-systems",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/software-application-development/marketplace-and-multi-vendor-platforms": {
+   "title": "Marketplace & Multi-Vendor Platforms | WebsKode",
+   "description": "Platforms where many sellers list products or services, with commissions, payouts and vendor dashboards handled for you.",
+   "canonical": "https://webskode.com/services/software-application-development/marketplace-and-multi-vendor-platforms",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Software & Application Development",
+       "item": "https://webskode.com/services/software-application-development"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Marketplace & Multi-Vendor Platforms",
+       "item": "https://webskode.com/services/software-application-development/marketplace-and-multi-vendor-platforms"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Marketplace & Multi-Vendor Platforms",
+     "description": "Platforms where many sellers list products or services, with commissions, payouts and vendor dashboards handled for you.",
+     "url": "https://webskode.com/services/software-application-development/marketplace-and-multi-vendor-platforms",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/software-application-development/api-development-and-integration": {
+   "title": "API Development & Integration | WebsKode",
+   "description": "Clean, documented APIs that connect your software with apps, partners and third-party services securely.",
+   "canonical": "https://webskode.com/services/software-application-development/api-development-and-integration",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Software & Application Development",
+       "item": "https://webskode.com/services/software-application-development"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "API Development & Integration",
+       "item": "https://webskode.com/services/software-application-development/api-development-and-integration"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "API Development & Integration",
+     "description": "Clean, documented APIs that connect your software with apps, partners and third-party services securely.",
+     "url": "https://webskode.com/services/software-application-development/api-development-and-integration",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/software-application-development/legacy-software-modernization": {
+   "title": "Legacy Software Modernization | WebsKode",
+   "description": "Upgrade outdated systems to modern, secure technology without losing the data and logic your business depends on.",
+   "canonical": "https://webskode.com/services/software-application-development/legacy-software-modernization",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Software & Application Development",
+       "item": "https://webskode.com/services/software-application-development"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Legacy Software Modernization",
+       "item": "https://webskode.com/services/software-application-development/legacy-software-modernization"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Legacy Software Modernization",
+     "description": "Upgrade outdated systems to modern, secure technology without losing the data and logic your business depends on.",
+     "url": "https://webskode.com/services/software-application-development/legacy-software-modernization",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/website-development": {
+   "title": "Website Development | WebsKode",
+   "description": "Fast, responsive websites and portals that are easy to manage and built to convert.",
+   "canonical": "https://webskode.com/services/website-development",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Website Development",
+       "item": "https://webskode.com/services/website-development"
+      }
+     ]
+    }
+   ]
+  },
+  "/services/website-development/business-websites": {
+   "title": "Business Websites | WebsKode",
+   "description": "Professional, fast websites that explain what you do and make it easy for customers to get in touch.",
+   "canonical": "https://webskode.com/services/website-development/business-websites",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Website Development",
+       "item": "https://webskode.com/services/website-development"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Business Websites",
+       "item": "https://webskode.com/services/website-development/business-websites"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Business Websites",
+     "description": "Professional, fast websites that explain what you do and make it easy for customers to get in touch.",
+     "url": "https://webskode.com/services/website-development/business-websites",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/website-development/e-commerce-websites": {
+   "title": "E-commerce Websites | WebsKode",
+   "description": "Online stores with product management, secure checkout and order tracking, built to turn visitors into buyers.",
+   "canonical": "https://webskode.com/services/website-development/e-commerce-websites",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Website Development",
+       "item": "https://webskode.com/services/website-development"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "E-commerce Websites",
+       "item": "https://webskode.com/services/website-development/e-commerce-websites"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "E-commerce Websites",
+     "description": "Online stores with product management, secure checkout and order tracking, built to turn visitors into buyers.",
+     "url": "https://webskode.com/services/website-development/e-commerce-websites",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/website-development/custom-web-portals": {
+   "title": "Custom Web Portals | WebsKode",
+   "description": "Customer, vendor, student or employee portals with secure logins and the exact features each group needs.",
+   "canonical": "https://webskode.com/services/website-development/custom-web-portals",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Website Development",
+       "item": "https://webskode.com/services/website-development"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Custom Web Portals",
+       "item": "https://webskode.com/services/website-development/custom-web-portals"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Custom Web Portals",
+     "description": "Customer, vendor, student or employee portals with secure logins and the exact features each group needs.",
+     "url": "https://webskode.com/services/website-development/custom-web-portals",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/website-development/wordpress-development": {
+   "title": "WordPress Development | WebsKode",
+   "description": "Custom WordPress themes and plugins that are fast, secure and simple for your team to update.",
+   "canonical": "https://webskode.com/services/website-development/wordpress-development",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Website Development",
+       "item": "https://webskode.com/services/website-development"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "WordPress Development",
+       "item": "https://webskode.com/services/website-development/wordpress-development"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "WordPress Development",
+     "description": "Custom WordPress themes and plugins that are fast, secure and simple for your team to update.",
+     "url": "https://webskode.com/services/website-development/wordpress-development",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/website-development/landing-pages": {
+   "title": "Landing Pages | WebsKode",
+   "description": "Focused landing pages for campaigns and launches, designed to turn clicks into enquiries.",
+   "canonical": "https://webskode.com/services/website-development/landing-pages",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Website Development",
+       "item": "https://webskode.com/services/website-development"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Landing Pages",
+       "item": "https://webskode.com/services/website-development/landing-pages"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Landing Pages",
+     "description": "Focused landing pages for campaigns and launches, designed to turn clicks into enquiries.",
+     "url": "https://webskode.com/services/website-development/landing-pages",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/website-development/membership-websites": {
+   "title": "Membership Websites | WebsKode",
+   "description": "Websites with paid or free membership, gated content, renewals and member management built in.",
+   "canonical": "https://webskode.com/services/website-development/membership-websites",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Website Development",
+       "item": "https://webskode.com/services/website-development"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Membership Websites",
+       "item": "https://webskode.com/services/website-development/membership-websites"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Membership Websites",
+     "description": "Websites with paid or free membership, gated content, renewals and member management built in.",
+     "url": "https://webskode.com/services/website-development/membership-websites",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/website-development/real-estate-websites-and-portals": {
+   "title": "Real Estate Websites & Portals | WebsKode",
+   "description": "Property listing websites with search, filters, maps and enquiry management for agents and developers.",
+   "canonical": "https://webskode.com/services/website-development/real-estate-websites-and-portals",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Website Development",
+       "item": "https://webskode.com/services/website-development"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Real Estate Websites & Portals",
+       "item": "https://webskode.com/services/website-development/real-estate-websites-and-portals"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Real Estate Websites & Portals",
+     "description": "Property listing websites with search, filters, maps and enquiry management for agents and developers.",
+     "url": "https://webskode.com/services/website-development/real-estate-websites-and-portals",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/website-development/website-redesign": {
+   "title": "Website Redesign | WebsKode",
+   "description": "Replace an outdated website with a modern look, clearer content and better performance, while protecting your search rankings.",
+   "canonical": "https://webskode.com/services/website-development/website-redesign",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Website Development",
+       "item": "https://webskode.com/services/website-development"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Website Redesign",
+       "item": "https://webskode.com/services/website-development/website-redesign"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Website Redesign",
+     "description": "Replace an outdated website with a modern look, clearer content and better performance, while protecting your search rankings.",
+     "url": "https://webskode.com/services/website-development/website-redesign",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/website-development/website-maintenance": {
+   "title": "Website Maintenance – Website Development | WebsKode",
+   "description": "Regular updates, backups, security checks and content changes so your website keeps working as it should.",
+   "canonical": "https://webskode.com/services/website-development/website-maintenance",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Website Development",
+       "item": "https://webskode.com/services/website-development"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Website Maintenance",
+       "item": "https://webskode.com/services/website-development/website-maintenance"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Website Maintenance",
+     "description": "Regular updates, backups, security checks and content changes so your website keeps working as it should.",
+     "url": "https://webskode.com/services/website-development/website-maintenance",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/website-development/website-speed-optimization": {
+   "title": "Website Speed Optimization | WebsKode",
+   "description": "Find and fix what slows your website down, improving load times, search visibility and conversions.",
+   "canonical": "https://webskode.com/services/website-development/website-speed-optimization",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Website Development",
+       "item": "https://webskode.com/services/website-development"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Website Speed Optimization",
+       "item": "https://webskode.com/services/website-development/website-speed-optimization"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Website Speed Optimization",
+     "description": "Find and fix what slows your website down, improving load times, search visibility and conversions.",
+     "url": "https://webskode.com/services/website-development/website-speed-optimization",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/mobile-app-development": {
+   "title": "Mobile App Development | WebsKode",
+   "description": "Android and iOS apps designed, built, launched and supported by one team.",
+   "canonical": "https://webskode.com/services/mobile-app-development",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Mobile App Development",
+       "item": "https://webskode.com/services/mobile-app-development"
+      }
+     ]
+    }
+   ]
+  },
+  "/services/mobile-app-development/android-app-development": {
+   "title": "Android App Development | WebsKode",
+   "description": "Android apps tested across the phones and screen sizes your customers actually use.",
+   "canonical": "https://webskode.com/services/mobile-app-development/android-app-development",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Mobile App Development",
+       "item": "https://webskode.com/services/mobile-app-development"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Android App Development",
+       "item": "https://webskode.com/services/mobile-app-development/android-app-development"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Android App Development",
+     "description": "Android apps tested across the phones and screen sizes your customers actually use.",
+     "url": "https://webskode.com/services/mobile-app-development/android-app-development",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/mobile-app-development/ios-app-development": {
+   "title": "iOS App Development | WebsKode",
+   "description": "iPhone and iPad apps that follow Apple’s guidelines and feel smooth, fast and trustworthy.",
+   "canonical": "https://webskode.com/services/mobile-app-development/ios-app-development",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Mobile App Development",
+       "item": "https://webskode.com/services/mobile-app-development"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "iOS App Development",
+       "item": "https://webskode.com/services/mobile-app-development/ios-app-development"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "iOS App Development",
+     "description": "iPhone and iPad apps that follow Apple’s guidelines and feel smooth, fast and trustworthy.",
+     "url": "https://webskode.com/services/mobile-app-development/ios-app-development",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/mobile-app-development/cross-platform-apps": {
+   "title": "Cross-Platform Apps | WebsKode",
+   "description": "A single Flutter codebase delivering Android and iOS apps together, saving time and cost without losing quality.",
+   "canonical": "https://webskode.com/services/mobile-app-development/cross-platform-apps",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Mobile App Development",
+       "item": "https://webskode.com/services/mobile-app-development"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Cross-Platform Apps",
+       "item": "https://webskode.com/services/mobile-app-development/cross-platform-apps"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Cross-Platform Apps",
+     "description": "A single Flutter codebase delivering Android and iOS apps together, saving time and cost without losing quality.",
+     "url": "https://webskode.com/services/mobile-app-development/cross-platform-apps",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/mobile-app-development/react-native-apps": {
+   "title": "React Native Apps | WebsKode",
+   "description": "Cross-platform apps built in React Native, ideal when your team or web product already uses React.",
+   "canonical": "https://webskode.com/services/mobile-app-development/react-native-apps",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Mobile App Development",
+       "item": "https://webskode.com/services/mobile-app-development"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "React Native Apps",
+       "item": "https://webskode.com/services/mobile-app-development/react-native-apps"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "React Native Apps",
+     "description": "Cross-platform apps built in React Native, ideal when your team or web product already uses React.",
+     "url": "https://webskode.com/services/mobile-app-development/react-native-apps",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/mobile-app-development/e-commerce-apps": {
+   "title": "E-commerce Apps | WebsKode",
+   "description": "Shopping apps with product browsing, cart, payments and order tracking that keep customers coming back.",
+   "canonical": "https://webskode.com/services/mobile-app-development/e-commerce-apps",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Mobile App Development",
+       "item": "https://webskode.com/services/mobile-app-development"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "E-commerce Apps",
+       "item": "https://webskode.com/services/mobile-app-development/e-commerce-apps"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "E-commerce Apps",
+     "description": "Shopping apps with product browsing, cart, payments and order tracking that keep customers coming back.",
+     "url": "https://webskode.com/services/mobile-app-development/e-commerce-apps",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/mobile-app-development/vendor-and-inventory-apps": {
+   "title": "Vendor & Inventory Apps | WebsKode",
+   "description": "Apps for vendors and staff to update stock, scan items and process orders from anywhere.",
+   "canonical": "https://webskode.com/services/mobile-app-development/vendor-and-inventory-apps",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Mobile App Development",
+       "item": "https://webskode.com/services/mobile-app-development"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Vendor & Inventory Apps",
+       "item": "https://webskode.com/services/mobile-app-development/vendor-and-inventory-apps"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Vendor & Inventory Apps",
+     "description": "Apps for vendors and staff to update stock, scan items and process orders from anywhere.",
+     "url": "https://webskode.com/services/mobile-app-development/vendor-and-inventory-apps",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/mobile-app-development/booking-apps": {
+   "title": "Booking Apps | WebsKode",
+   "description": "Appointment and reservation apps with live slots, reminders and in-app payment.",
+   "canonical": "https://webskode.com/services/mobile-app-development/booking-apps",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Mobile App Development",
+       "item": "https://webskode.com/services/mobile-app-development"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Booking Apps",
+       "item": "https://webskode.com/services/mobile-app-development/booking-apps"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Booking Apps",
+     "description": "Appointment and reservation apps with live slots, reminders and in-app payment.",
+     "url": "https://webskode.com/services/mobile-app-development/booking-apps",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/mobile-app-development/business-management-apps": {
+   "title": "Business Management Apps | WebsKode",
+   "description": "Mobile apps for owners and field teams to track sales, tasks, attendance and reports in real time.",
+   "canonical": "https://webskode.com/services/mobile-app-development/business-management-apps",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Mobile App Development",
+       "item": "https://webskode.com/services/mobile-app-development"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Business Management Apps",
+       "item": "https://webskode.com/services/mobile-app-development/business-management-apps"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Business Management Apps",
+     "description": "Mobile apps for owners and field teams to track sales, tasks, attendance and reports in real time.",
+     "url": "https://webskode.com/services/mobile-app-development/business-management-apps",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/mobile-app-development/app-maintenance-and-upgrades": {
+   "title": "App Maintenance & Upgrades | WebsKode",
+   "description": "Ongoing fixes, OS compatibility updates and new features so your app stays reliable and well rated.",
+   "canonical": "https://webskode.com/services/mobile-app-development/app-maintenance-and-upgrades",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Mobile App Development",
+       "item": "https://webskode.com/services/mobile-app-development"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "App Maintenance & Upgrades",
+       "item": "https://webskode.com/services/mobile-app-development/app-maintenance-and-upgrades"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "App Maintenance & Upgrades",
+     "description": "Ongoing fixes, OS compatibility updates and new features so your app stays reliable and well rated.",
+     "url": "https://webskode.com/services/mobile-app-development/app-maintenance-and-upgrades",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/cloud-backend-services": {
+   "title": "Cloud & Backend Services | WebsKode",
+   "description": "The servers, databases and pipelines that keep your product fast, secure and online.",
+   "canonical": "https://webskode.com/services/cloud-backend-services",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Cloud & Backend Services",
+       "item": "https://webskode.com/services/cloud-backend-services"
+      }
+     ]
+    }
+   ]
+  },
+  "/services/cloud-backend-services/backend-api-development": {
+   "title": "Backend/API Development | WebsKode",
+   "description": "Reliable server-side systems and APIs that keep your website and apps fast, secure and in sync.",
+   "canonical": "https://webskode.com/services/cloud-backend-services/backend-api-development",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Cloud & Backend Services",
+       "item": "https://webskode.com/services/cloud-backend-services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Backend/API Development",
+       "item": "https://webskode.com/services/cloud-backend-services/backend-api-development"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Backend/API Development",
+     "description": "Reliable server-side systems and APIs that keep your website and apps fast, secure and in sync.",
+     "url": "https://webskode.com/services/cloud-backend-services/backend-api-development",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/cloud-backend-services/database-design-and-development": {
+   "title": "Database Design & Development | WebsKode",
+   "description": "Well-planned databases that store information accurately and stay fast as your records grow.",
+   "canonical": "https://webskode.com/services/cloud-backend-services/database-design-and-development",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Cloud & Backend Services",
+       "item": "https://webskode.com/services/cloud-backend-services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Database Design & Development",
+       "item": "https://webskode.com/services/cloud-backend-services/database-design-and-development"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Database Design & Development",
+     "description": "Well-planned databases that store information accurately and stay fast as your records grow.",
+     "url": "https://webskode.com/services/cloud-backend-services/database-design-and-development",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/cloud-backend-services/aws-cloud-solutions": {
+   "title": "AWS Cloud Solutions | WebsKode",
+   "description": "Secure, cost-aware AWS setups for hosting, storage and scaling, configured for your workload.",
+   "canonical": "https://webskode.com/services/cloud-backend-services/aws-cloud-solutions",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Cloud & Backend Services",
+       "item": "https://webskode.com/services/cloud-backend-services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "AWS Cloud Solutions",
+       "item": "https://webskode.com/services/cloud-backend-services/aws-cloud-solutions"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "AWS Cloud Solutions",
+     "description": "Secure, cost-aware AWS setups for hosting, storage and scaling, configured for your workload.",
+     "url": "https://webskode.com/services/cloud-backend-services/aws-cloud-solutions",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/cloud-backend-services/cloud-migration": {
+   "title": "Cloud Migration | WebsKode",
+   "description": "Plan and move your applications and data to the cloud with minimal downtime and careful validation.",
+   "canonical": "https://webskode.com/services/cloud-backend-services/cloud-migration",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Cloud & Backend Services",
+       "item": "https://webskode.com/services/cloud-backend-services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Cloud Migration",
+       "item": "https://webskode.com/services/cloud-backend-services/cloud-migration"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Cloud Migration",
+     "description": "Plan and move your applications and data to the cloud with minimal downtime and careful validation.",
+     "url": "https://webskode.com/services/cloud-backend-services/cloud-migration",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/cloud-backend-services/server-setup-and-management": {
+   "title": "Server Setup & Management | WebsKode",
+   "description": "We set up, secure and look after your servers so your applications stay online and up to date.",
+   "canonical": "https://webskode.com/services/cloud-backend-services/server-setup-and-management",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Cloud & Backend Services",
+       "item": "https://webskode.com/services/cloud-backend-services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Server Setup & Management",
+       "item": "https://webskode.com/services/cloud-backend-services/server-setup-and-management"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Server Setup & Management",
+     "description": "We set up, secure and look after your servers so your applications stay online and up to date.",
+     "url": "https://webskode.com/services/cloud-backend-services/server-setup-and-management",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/cloud-backend-services/application-deployment": {
+   "title": "Application Deployment | WebsKode",
+   "description": "Smooth, repeatable deployments of your application to production, with rollback ready if something goes wrong.",
+   "canonical": "https://webskode.com/services/cloud-backend-services/application-deployment",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Cloud & Backend Services",
+       "item": "https://webskode.com/services/cloud-backend-services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Application Deployment",
+       "item": "https://webskode.com/services/cloud-backend-services/application-deployment"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Application Deployment",
+     "description": "Smooth, repeatable deployments of your application to production, with rollback ready if something goes wrong.",
+     "url": "https://webskode.com/services/cloud-backend-services/application-deployment",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/cloud-backend-services/ci-cd-setup": {
+   "title": "CI/CD Setup | WebsKode",
+   "description": "Automated build, test and release pipelines so new features reach users faster and with fewer mistakes.",
+   "canonical": "https://webskode.com/services/cloud-backend-services/ci-cd-setup",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Cloud & Backend Services",
+       "item": "https://webskode.com/services/cloud-backend-services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "CI/CD Setup",
+       "item": "https://webskode.com/services/cloud-backend-services/ci-cd-setup"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "CI/CD Setup",
+     "description": "Automated build, test and release pipelines so new features reach users faster and with fewer mistakes.",
+     "url": "https://webskode.com/services/cloud-backend-services/ci-cd-setup",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/cloud-backend-services/database-migration": {
+   "title": "Database Migration | WebsKode",
+   "description": "Transfer data between databases or versions carefully, with validation at every step.",
+   "canonical": "https://webskode.com/services/cloud-backend-services/database-migration",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Cloud & Backend Services",
+       "item": "https://webskode.com/services/cloud-backend-services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Database Migration",
+       "item": "https://webskode.com/services/cloud-backend-services/database-migration"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Database Migration",
+     "description": "Transfer data between databases or versions carefully, with validation at every step.",
+     "url": "https://webskode.com/services/cloud-backend-services/database-migration",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/cloud-backend-services/performance-optimization": {
+   "title": "Performance Optimization | WebsKode",
+   "description": "Identify bottlenecks in code, queries and servers, then tune them for speed under real load.",
+   "canonical": "https://webskode.com/services/cloud-backend-services/performance-optimization",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Cloud & Backend Services",
+       "item": "https://webskode.com/services/cloud-backend-services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Performance Optimization",
+       "item": "https://webskode.com/services/cloud-backend-services/performance-optimization"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Performance Optimization",
+     "description": "Identify bottlenecks in code, queries and servers, then tune them for speed under real load.",
+     "url": "https://webskode.com/services/cloud-backend-services/performance-optimization",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/cloud-backend-services/automated-backups-and-disaster-recovery": {
+   "title": "Automated Backups & Disaster Recovery | WebsKode",
+   "description": "Scheduled, tested backups and a clear recovery plan so your business can get back on its feet quickly.",
+   "canonical": "https://webskode.com/services/cloud-backend-services/automated-backups-and-disaster-recovery",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Cloud & Backend Services",
+       "item": "https://webskode.com/services/cloud-backend-services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Automated Backups & Disaster Recovery",
+       "item": "https://webskode.com/services/cloud-backend-services/automated-backups-and-disaster-recovery"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Automated Backups & Disaster Recovery",
+     "description": "Scheduled, tested backups and a clear recovery plan so your business can get back on its feet quickly.",
+     "url": "https://webskode.com/services/cloud-backend-services/automated-backups-and-disaster-recovery",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/ai-automation": {
+   "title": "AI & Automation | WebsKode",
+   "description": "Practical AI and automation that remove repetitive work and speed up your business.",
+   "canonical": "https://webskode.com/services/ai-automation",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "AI & Automation",
+       "item": "https://webskode.com/services/ai-automation"
+      }
+     ]
+    }
+   ]
+  },
+  "/services/ai-automation/ai-powered-applications": {
+   "title": "AI-Powered Applications | WebsKode",
+   "description": "Applications that use AI to search, summarise, recommend and predict, built around a real business need.",
+   "canonical": "https://webskode.com/services/ai-automation/ai-powered-applications",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "AI & Automation",
+       "item": "https://webskode.com/services/ai-automation"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "AI-Powered Applications",
+       "item": "https://webskode.com/services/ai-automation/ai-powered-applications"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "AI-Powered Applications",
+     "description": "Applications that use AI to search, summarise, recommend and predict, built around a real business need.",
+     "url": "https://webskode.com/services/ai-automation/ai-powered-applications",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/ai-automation/ai-chatbots": {
+   "title": "AI Chatbots | WebsKode",
+   "description": "Chatbots trained on your business information that answer customers instantly on your website and apps.",
+   "canonical": "https://webskode.com/services/ai-automation/ai-chatbots",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "AI & Automation",
+       "item": "https://webskode.com/services/ai-automation"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "AI Chatbots",
+       "item": "https://webskode.com/services/ai-automation/ai-chatbots"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "AI Chatbots",
+     "description": "Chatbots trained on your business information that answer customers instantly on your website and apps.",
+     "url": "https://webskode.com/services/ai-automation/ai-chatbots",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/ai-automation/business-process-automation": {
+   "title": "Business Process Automation | WebsKode",
+   "description": "Automate repetitive tasks such as data entry, approvals and reports to save hours every week.",
+   "canonical": "https://webskode.com/services/ai-automation/business-process-automation",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "AI & Automation",
+       "item": "https://webskode.com/services/ai-automation"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Business Process Automation",
+       "item": "https://webskode.com/services/ai-automation/business-process-automation"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Business Process Automation",
+     "description": "Automate repetitive tasks such as data entry, approvals and reports to save hours every week.",
+     "url": "https://webskode.com/services/ai-automation/business-process-automation",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/ai-automation/workflow-automation": {
+   "title": "Workflow Automation | WebsKode",
+   "description": "Connect your tools so information flows automatically from one step to the next without manual follow-up.",
+   "canonical": "https://webskode.com/services/ai-automation/workflow-automation",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "AI & Automation",
+       "item": "https://webskode.com/services/ai-automation"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Workflow Automation",
+       "item": "https://webskode.com/services/ai-automation/workflow-automation"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Workflow Automation",
+     "description": "Connect your tools so information flows automatically from one step to the next without manual follow-up.",
+     "url": "https://webskode.com/services/ai-automation/workflow-automation",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/ai-automation/ai-api-integration": {
+   "title": "AI API Integration | WebsKode",
+   "description": "Integrate leading AI models into your existing software for chat, summaries, classification and more.",
+   "canonical": "https://webskode.com/services/ai-automation/ai-api-integration",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "AI & Automation",
+       "item": "https://webskode.com/services/ai-automation"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "AI API Integration",
+       "item": "https://webskode.com/services/ai-automation/ai-api-integration"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "AI API Integration",
+     "description": "Integrate leading AI models into your existing software for chat, summaries, classification and more.",
+     "url": "https://webskode.com/services/ai-automation/ai-api-integration",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/ai-automation/document-data-processing-automation": {
+   "title": "Document/Data Processing Automation | WebsKode",
+   "description": "Extract data from invoices, forms and documents and send it straight to your systems.",
+   "canonical": "https://webskode.com/services/ai-automation/document-data-processing-automation",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "AI & Automation",
+       "item": "https://webskode.com/services/ai-automation"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Document/Data Processing Automation",
+       "item": "https://webskode.com/services/ai-automation/document-data-processing-automation"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Document/Data Processing Automation",
+     "description": "Extract data from invoices, forms and documents and send it straight to your systems.",
+     "url": "https://webskode.com/services/ai-automation/document-data-processing-automation",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/ai-automation/customer-support-automation": {
+   "title": "Customer Support Automation | WebsKode",
+   "description": "Automated replies, ticket routing and FAQs that resolve common questions and free your team for the hard ones.",
+   "canonical": "https://webskode.com/services/ai-automation/customer-support-automation",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "AI & Automation",
+       "item": "https://webskode.com/services/ai-automation"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Customer Support Automation",
+       "item": "https://webskode.com/services/ai-automation/customer-support-automation"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Customer Support Automation",
+     "description": "Automated replies, ticket routing and FAQs that resolve common questions and free your team for the hard ones.",
+     "url": "https://webskode.com/services/ai-automation/customer-support-automation",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/ai-automation/whatsapp-automation": {
+   "title": "WhatsApp Automation | WebsKode",
+   "description": "Automated order updates, reminders, catalogues and replies on the app your customers already use.",
+   "canonical": "https://webskode.com/services/ai-automation/whatsapp-automation",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "AI & Automation",
+       "item": "https://webskode.com/services/ai-automation"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "WhatsApp Automation",
+       "item": "https://webskode.com/services/ai-automation/whatsapp-automation"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "WhatsApp Automation",
+     "description": "Automated order updates, reminders, catalogues and replies on the app your customers already use.",
+     "url": "https://webskode.com/services/ai-automation/whatsapp-automation",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/ecommerce-business-solutions": {
+   "title": "E-commerce & Business Solutions | WebsKode",
+   "description": "Everything needed to sell online and manage orders, stock, customers and payments.",
+   "canonical": "https://webskode.com/services/ecommerce-business-solutions",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "E-commerce & Business Solutions",
+       "item": "https://webskode.com/services/ecommerce-business-solutions"
+      }
+     ]
+    }
+   ]
+  },
+  "/services/ecommerce-business-solutions/online-store-development": {
+   "title": "Online Store Development | WebsKode",
+   "description": "A complete online store with catalogue, cart, payments and delivery options, ready to take orders.",
+   "canonical": "https://webskode.com/services/ecommerce-business-solutions/online-store-development",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "E-commerce & Business Solutions",
+       "item": "https://webskode.com/services/ecommerce-business-solutions"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Online Store Development",
+       "item": "https://webskode.com/services/ecommerce-business-solutions/online-store-development"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Online Store Development",
+     "description": "A complete online store with catalogue, cart, payments and delivery options, ready to take orders.",
+     "url": "https://webskode.com/services/ecommerce-business-solutions/online-store-development",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/ecommerce-business-solutions/multi-vendor-marketplace": {
+   "title": "Multi-Vendor Marketplace | WebsKode",
+   "description": "A marketplace where vendors manage their own products while you control commissions and quality.",
+   "canonical": "https://webskode.com/services/ecommerce-business-solutions/multi-vendor-marketplace",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "E-commerce & Business Solutions",
+       "item": "https://webskode.com/services/ecommerce-business-solutions"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Multi-Vendor Marketplace",
+       "item": "https://webskode.com/services/ecommerce-business-solutions/multi-vendor-marketplace"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Multi-Vendor Marketplace",
+     "description": "A marketplace where vendors manage their own products while you control commissions and quality.",
+     "url": "https://webskode.com/services/ecommerce-business-solutions/multi-vendor-marketplace",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/ecommerce-business-solutions/inventory-management": {
+   "title": "Inventory Management | WebsKode",
+   "description": "Real-time inventory across warehouses and sales channels, so you avoid overselling and surprise shortages.",
+   "canonical": "https://webskode.com/services/ecommerce-business-solutions/inventory-management",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "E-commerce & Business Solutions",
+       "item": "https://webskode.com/services/ecommerce-business-solutions"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Inventory Management",
+       "item": "https://webskode.com/services/ecommerce-business-solutions/inventory-management"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Inventory Management",
+     "description": "Real-time inventory across warehouses and sales channels, so you avoid overselling and surprise shortages.",
+     "url": "https://webskode.com/services/ecommerce-business-solutions/inventory-management",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/ecommerce-business-solutions/order-management": {
+   "title": "Order Management | WebsKode",
+   "description": "Manage orders from all channels in one place, from confirmation and packing to delivery and returns.",
+   "canonical": "https://webskode.com/services/ecommerce-business-solutions/order-management",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "E-commerce & Business Solutions",
+       "item": "https://webskode.com/services/ecommerce-business-solutions"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Order Management",
+       "item": "https://webskode.com/services/ecommerce-business-solutions/order-management"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Order Management",
+     "description": "Manage orders from all channels in one place, from confirmation and packing to delivery and returns.",
+     "url": "https://webskode.com/services/ecommerce-business-solutions/order-management",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/ecommerce-business-solutions/payment-gateway-integration": {
+   "title": "Payment Gateway Integration – E-commerce & Business Solutions | WebsKode",
+   "description": "Secure acceptance of UPI, cards, net banking and wallets through trusted payment gateways.",
+   "canonical": "https://webskode.com/services/ecommerce-business-solutions/payment-gateway-integration",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "E-commerce & Business Solutions",
+       "item": "https://webskode.com/services/ecommerce-business-solutions"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Payment Gateway Integration",
+       "item": "https://webskode.com/services/ecommerce-business-solutions/payment-gateway-integration"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Payment Gateway Integration",
+     "description": "Secure acceptance of UPI, cards, net banking and wallets through trusted payment gateways.",
+     "url": "https://webskode.com/services/ecommerce-business-solutions/payment-gateway-integration",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/ecommerce-business-solutions/subscription-and-membership-systems": {
+   "title": "Subscription & Membership Systems | WebsKode",
+   "description": "Plans, renewals, automatic billing and member access handled smoothly for subscription businesses.",
+   "canonical": "https://webskode.com/services/ecommerce-business-solutions/subscription-and-membership-systems",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "E-commerce & Business Solutions",
+       "item": "https://webskode.com/services/ecommerce-business-solutions"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Subscription & Membership Systems",
+       "item": "https://webskode.com/services/ecommerce-business-solutions/subscription-and-membership-systems"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Subscription & Membership Systems",
+     "description": "Plans, renewals, automatic billing and member access handled smoothly for subscription businesses.",
+     "url": "https://webskode.com/services/ecommerce-business-solutions/subscription-and-membership-systems",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/ecommerce-business-solutions/customer-management": {
+   "title": "Customer Management | WebsKode",
+   "description": "Keep customer details, purchase history and communication in one organised place.",
+   "canonical": "https://webskode.com/services/ecommerce-business-solutions/customer-management",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "E-commerce & Business Solutions",
+       "item": "https://webskode.com/services/ecommerce-business-solutions"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Customer Management",
+       "item": "https://webskode.com/services/ecommerce-business-solutions/customer-management"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Customer Management",
+     "description": "Keep customer details, purchase history and communication in one organised place.",
+     "url": "https://webskode.com/services/ecommerce-business-solutions/customer-management",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/ecommerce-business-solutions/sales-and-invoice-management": {
+   "title": "Sales & Invoice Management | WebsKode",
+   "description": "Create quotations, invoices and receipts, and track what is paid and what is pending.",
+   "canonical": "https://webskode.com/services/ecommerce-business-solutions/sales-and-invoice-management",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "E-commerce & Business Solutions",
+       "item": "https://webskode.com/services/ecommerce-business-solutions"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Sales & Invoice Management",
+       "item": "https://webskode.com/services/ecommerce-business-solutions/sales-and-invoice-management"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Sales & Invoice Management",
+     "description": "Create quotations, invoices and receipts, and track what is paid and what is pending.",
+     "url": "https://webskode.com/services/ecommerce-business-solutions/sales-and-invoice-management",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/ecommerce-business-solutions/barcode-qr-code-systems": {
+   "title": "Barcode/QR Code Systems | WebsKode",
+   "description": "Barcode and QR solutions for billing, stock, tracking and payments that cut errors and save time.",
+   "canonical": "https://webskode.com/services/ecommerce-business-solutions/barcode-qr-code-systems",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "E-commerce & Business Solutions",
+       "item": "https://webskode.com/services/ecommerce-business-solutions"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Barcode/QR Code Systems",
+       "item": "https://webskode.com/services/ecommerce-business-solutions/barcode-qr-code-systems"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Barcode/QR Code Systems",
+     "description": "Barcode and QR solutions for billing, stock, tracking and payments that cut errors and save time.",
+     "url": "https://webskode.com/services/ecommerce-business-solutions/barcode-qr-code-systems",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/integrations": {
+   "title": "Integrations | WebsKode",
+   "description": "Connect your website, apps and software with the services your business relies on.",
+   "canonical": "https://webskode.com/services/integrations",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Integrations",
+       "item": "https://webskode.com/services/integrations"
+      }
+     ]
+    }
+   ]
+  },
+  "/services/integrations/payment-gateway-integration": {
+   "title": "Payment Gateway Integration – Integrations | WebsKode",
+   "description": "Add a payment gateway to your website or app, with the full checkout flow tested end to end.",
+   "canonical": "https://webskode.com/services/integrations/payment-gateway-integration",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Integrations",
+       "item": "https://webskode.com/services/integrations"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Payment Gateway Integration",
+       "item": "https://webskode.com/services/integrations/payment-gateway-integration"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Payment Gateway Integration",
+     "description": "Add a payment gateway to your website or app, with the full checkout flow tested end to end.",
+     "url": "https://webskode.com/services/integrations/payment-gateway-integration",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/integrations/whatsapp-business-integration": {
+   "title": "WhatsApp Business Integration | WebsKode",
+   "description": "Send notifications and chat with customers on WhatsApp directly from your software.",
+   "canonical": "https://webskode.com/services/integrations/whatsapp-business-integration",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Integrations",
+       "item": "https://webskode.com/services/integrations"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "WhatsApp Business Integration",
+       "item": "https://webskode.com/services/integrations/whatsapp-business-integration"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "WhatsApp Business Integration",
+     "description": "Send notifications and chat with customers on WhatsApp directly from your software.",
+     "url": "https://webskode.com/services/integrations/whatsapp-business-integration",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/integrations/google-maps-integration": {
+   "title": "Google Maps Integration | WebsKode",
+   "description": "Maps, address search, store locators and route tracking inside your website or app.",
+   "canonical": "https://webskode.com/services/integrations/google-maps-integration",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Integrations",
+       "item": "https://webskode.com/services/integrations"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Google Maps Integration",
+       "item": "https://webskode.com/services/integrations/google-maps-integration"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Google Maps Integration",
+     "description": "Maps, address search, store locators and route tracking inside your website or app.",
+     "url": "https://webskode.com/services/integrations/google-maps-integration",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/integrations/accounting-software-integration": {
+   "title": "Accounting Software Integration | WebsKode",
+   "description": "Sync sales, invoices and payments with your accounting software, so nothing is entered twice.",
+   "canonical": "https://webskode.com/services/integrations/accounting-software-integration",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Integrations",
+       "item": "https://webskode.com/services/integrations"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Accounting Software Integration",
+       "item": "https://webskode.com/services/integrations/accounting-software-integration"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Accounting Software Integration",
+     "description": "Sync sales, invoices and payments with your accounting software, so nothing is entered twice.",
+     "url": "https://webskode.com/services/integrations/accounting-software-integration",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/integrations/crm-integration": {
+   "title": "CRM Integration | WebsKode",
+   "description": "Connect your website, apps and forms to your CRM so leads and customer data flow in automatically.",
+   "canonical": "https://webskode.com/services/integrations/crm-integration",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Integrations",
+       "item": "https://webskode.com/services/integrations"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "CRM Integration",
+       "item": "https://webskode.com/services/integrations/crm-integration"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "CRM Integration",
+     "description": "Connect your website, apps and forms to your CRM so leads and customer data flow in automatically.",
+     "url": "https://webskode.com/services/integrations/crm-integration",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/integrations/third-party-api-integration": {
+   "title": "Third-Party API Integration | WebsKode",
+   "description": "Integrate external services and data sources reliably, with proper error handling and monitoring.",
+   "canonical": "https://webskode.com/services/integrations/third-party-api-integration",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Integrations",
+       "item": "https://webskode.com/services/integrations"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Third-Party API Integration",
+       "item": "https://webskode.com/services/integrations/third-party-api-integration"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Third-Party API Integration",
+     "description": "Integrate external services and data sources reliably, with proper error handling and monitoring.",
+     "url": "https://webskode.com/services/integrations/third-party-api-integration",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/integrations/social-media-integration": {
+   "title": "Social Media Integration | WebsKode",
+   "description": "Social logins, sharing, feeds and catalogue sync that link your product with social platforms.",
+   "canonical": "https://webskode.com/services/integrations/social-media-integration",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Integrations",
+       "item": "https://webskode.com/services/integrations"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Social Media Integration",
+       "item": "https://webskode.com/services/integrations/social-media-integration"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Social Media Integration",
+     "description": "Social logins, sharing, feeds and catalogue sync that link your product with social platforms.",
+     "url": "https://webskode.com/services/integrations/social-media-integration",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/integrations/email-and-sms-integration": {
+   "title": "Email & SMS Integration | WebsKode",
+   "description": "Automated emails and SMS for OTPs, order updates, reminders and campaigns.",
+   "canonical": "https://webskode.com/services/integrations/email-and-sms-integration",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Integrations",
+       "item": "https://webskode.com/services/integrations"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Email & SMS Integration",
+       "item": "https://webskode.com/services/integrations/email-and-sms-integration"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Email & SMS Integration",
+     "description": "Automated emails and SMS for OTPs, order updates, reminders and campaigns.",
+     "url": "https://webskode.com/services/integrations/email-and-sms-integration",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/integrations/shipping-courier-integration": {
+   "title": "Shipping/Courier Integration | WebsKode",
+   "description": "Connect courier partners for live rates, label printing, pickups and tracking.",
+   "canonical": "https://webskode.com/services/integrations/shipping-courier-integration",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Integrations",
+       "item": "https://webskode.com/services/integrations"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Shipping/Courier Integration",
+       "item": "https://webskode.com/services/integrations/shipping-courier-integration"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Shipping/Courier Integration",
+     "description": "Connect courier partners for live rates, label printing, pickups and tracking.",
+     "url": "https://webskode.com/services/integrations/shipping-courier-integration",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/ui-ux-and-design": {
+   "title": "UI/UX & Design | WebsKode",
+   "description": "Interfaces and brand visuals that are clear, consistent and a pleasure to use.",
+   "canonical": "https://webskode.com/services/ui-ux-and-design",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "UI/UX & Design",
+       "item": "https://webskode.com/services/ui-ux-and-design"
+      }
+     ]
+    }
+   ]
+  },
+  "/services/ui-ux-and-design/ui-ux-design": {
+   "title": "UI/UX Design | WebsKode",
+   "description": "Research-led interface and experience design that makes digital products clear, pleasant and effective.",
+   "canonical": "https://webskode.com/services/ui-ux-and-design/ui-ux-design",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "UI/UX & Design",
+       "item": "https://webskode.com/services/ui-ux-and-design"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "UI/UX Design",
+       "item": "https://webskode.com/services/ui-ux-and-design/ui-ux-design"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "UI/UX Design",
+     "description": "Research-led interface and experience design that makes digital products clear, pleasant and effective.",
+     "url": "https://webskode.com/services/ui-ux-and-design/ui-ux-design",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/ui-ux-and-design/website-design": {
+   "title": "Website Design | WebsKode",
+   "description": "Modern, on-brand website designs focused on clarity and conversion, ready for development.",
+   "canonical": "https://webskode.com/services/ui-ux-and-design/website-design",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "UI/UX & Design",
+       "item": "https://webskode.com/services/ui-ux-and-design"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Website Design",
+       "item": "https://webskode.com/services/ui-ux-and-design/website-design"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Website Design",
+     "description": "Modern, on-brand website designs focused on clarity and conversion, ready for development.",
+     "url": "https://webskode.com/services/ui-ux-and-design/website-design",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/ui-ux-and-design/mobile-app-design": {
+   "title": "Mobile App Design | WebsKode",
+   "description": "App interfaces designed for thumbs and small screens, following each platform’s guidelines.",
+   "canonical": "https://webskode.com/services/ui-ux-and-design/mobile-app-design",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "UI/UX & Design",
+       "item": "https://webskode.com/services/ui-ux-and-design"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Mobile App Design",
+       "item": "https://webskode.com/services/ui-ux-and-design/mobile-app-design"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Mobile App Design",
+     "description": "App interfaces designed for thumbs and small screens, following each platform’s guidelines.",
+     "url": "https://webskode.com/services/ui-ux-and-design/mobile-app-design",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/ui-ux-and-design/software-dashboard-design": {
+   "title": "Software Dashboard Design | WebsKode",
+   "description": "Dashboards and admin panels that make dense information easy to scan and act on.",
+   "canonical": "https://webskode.com/services/ui-ux-and-design/software-dashboard-design",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "UI/UX & Design",
+       "item": "https://webskode.com/services/ui-ux-and-design"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Software Dashboard Design",
+       "item": "https://webskode.com/services/ui-ux-and-design/software-dashboard-design"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Software Dashboard Design",
+     "description": "Dashboards and admin panels that make dense information easy to scan and act on.",
+     "url": "https://webskode.com/services/ui-ux-and-design/software-dashboard-design",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/ui-ux-and-design/logo-and-brand-identity": {
+   "title": "Logo & Brand Identity | WebsKode",
+   "description": "Distinctive logos with colours, type and guidelines that keep your brand consistent everywhere.",
+   "canonical": "https://webskode.com/services/ui-ux-and-design/logo-and-brand-identity",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "UI/UX & Design",
+       "item": "https://webskode.com/services/ui-ux-and-design"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Logo & Brand Identity",
+       "item": "https://webskode.com/services/ui-ux-and-design/logo-and-brand-identity"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Logo & Brand Identity",
+     "description": "Distinctive logos with colours, type and guidelines that keep your brand consistent everywhere.",
+     "url": "https://webskode.com/services/ui-ux-and-design/logo-and-brand-identity",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/ui-ux-and-design/wireframes-and-prototypes": {
+   "title": "Wireframes & Prototypes | WebsKode",
+   "description": "Clickable wireframes and prototypes that let you test ideas early and avoid expensive changes later.",
+   "canonical": "https://webskode.com/services/ui-ux-and-design/wireframes-and-prototypes",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "UI/UX & Design",
+       "item": "https://webskode.com/services/ui-ux-and-design"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Wireframes & Prototypes",
+       "item": "https://webskode.com/services/ui-ux-and-design/wireframes-and-prototypes"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Wireframes & Prototypes",
+     "description": "Clickable wireframes and prototypes that let you test ideas early and avoid expensive changes later.",
+     "url": "https://webskode.com/services/ui-ux-and-design/wireframes-and-prototypes",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/maintenance-it-support": {
+   "title": "Maintenance & IT Support | WebsKode",
+   "description": "Ongoing care that keeps your software, websites, apps and servers secure and running.",
+   "canonical": "https://webskode.com/services/maintenance-it-support",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Maintenance & IT Support",
+       "item": "https://webskode.com/services/maintenance-it-support"
+      }
+     ]
+    }
+   ]
+  },
+  "/services/maintenance-it-support/software-maintenance": {
+   "title": "Software Maintenance | WebsKode",
+   "description": "Ongoing care for your business software, covering fixes, improvements and updates.",
+   "canonical": "https://webskode.com/services/maintenance-it-support/software-maintenance",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Maintenance & IT Support",
+       "item": "https://webskode.com/services/maintenance-it-support"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Software Maintenance",
+       "item": "https://webskode.com/services/maintenance-it-support/software-maintenance"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Software Maintenance",
+     "description": "Ongoing care for your business software, covering fixes, improvements and updates.",
+     "url": "https://webskode.com/services/maintenance-it-support/software-maintenance",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/maintenance-it-support/website-maintenance": {
+   "title": "Website Maintenance – Maintenance & IT Support | WebsKode",
+   "description": "Updates, backups, monitoring and content edits handled for you on a regular schedule.",
+   "canonical": "https://webskode.com/services/maintenance-it-support/website-maintenance",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Maintenance & IT Support",
+       "item": "https://webskode.com/services/maintenance-it-support"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Website Maintenance",
+       "item": "https://webskode.com/services/maintenance-it-support/website-maintenance"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Website Maintenance",
+     "description": "Updates, backups, monitoring and content edits handled for you on a regular schedule.",
+     "url": "https://webskode.com/services/maintenance-it-support/website-maintenance",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/maintenance-it-support/app-maintenance": {
+   "title": "App Maintenance | WebsKode",
+   "description": "Keep your mobile apps compatible with new devices and OS versions, and free of crashes.",
+   "canonical": "https://webskode.com/services/maintenance-it-support/app-maintenance",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Maintenance & IT Support",
+       "item": "https://webskode.com/services/maintenance-it-support"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "App Maintenance",
+       "item": "https://webskode.com/services/maintenance-it-support/app-maintenance"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "App Maintenance",
+     "description": "Keep your mobile apps compatible with new devices and OS versions, and free of crashes.",
+     "url": "https://webskode.com/services/maintenance-it-support/app-maintenance",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/maintenance-it-support/bug-fixing": {
+   "title": "Bug Fixing | WebsKode",
+   "description": "Fast diagnosis and repair of errors in websites, apps and software, including code we did not write.",
+   "canonical": "https://webskode.com/services/maintenance-it-support/bug-fixing",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Maintenance & IT Support",
+       "item": "https://webskode.com/services/maintenance-it-support"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Bug Fixing",
+       "item": "https://webskode.com/services/maintenance-it-support/bug-fixing"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Bug Fixing",
+     "description": "Fast diagnosis and repair of errors in websites, apps and software, including code we did not write.",
+     "url": "https://webskode.com/services/maintenance-it-support/bug-fixing",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/maintenance-it-support/security-updates": {
+   "title": "Security Updates | WebsKode",
+   "description": "Regular patches, vulnerability checks and hardening that protect your systems and customer data.",
+   "canonical": "https://webskode.com/services/maintenance-it-support/security-updates",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Maintenance & IT Support",
+       "item": "https://webskode.com/services/maintenance-it-support"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Security Updates",
+       "item": "https://webskode.com/services/maintenance-it-support/security-updates"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Security Updates",
+     "description": "Regular patches, vulnerability checks and hardening that protect your systems and customer data.",
+     "url": "https://webskode.com/services/maintenance-it-support/security-updates",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/maintenance-it-support/server-monitoring": {
+   "title": "Server Monitoring | WebsKode",
+   "description": "Continuous monitoring of uptime, load and errors, with alerts and a quick response.",
+   "canonical": "https://webskode.com/services/maintenance-it-support/server-monitoring",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Maintenance & IT Support",
+       "item": "https://webskode.com/services/maintenance-it-support"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Server Monitoring",
+       "item": "https://webskode.com/services/maintenance-it-support/server-monitoring"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Server Monitoring",
+     "description": "Continuous monitoring of uptime, load and errors, with alerts and a quick response.",
+     "url": "https://webskode.com/services/maintenance-it-support/server-monitoring",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/maintenance-it-support/database-optimization": {
+   "title": "Database Optimization | WebsKode",
+   "description": "Tune indexes, queries and structure so your database stays quick as data grows.",
+   "canonical": "https://webskode.com/services/maintenance-it-support/database-optimization",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Maintenance & IT Support",
+       "item": "https://webskode.com/services/maintenance-it-support"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Database Optimization",
+       "item": "https://webskode.com/services/maintenance-it-support/database-optimization"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Database Optimization",
+     "description": "Tune indexes, queries and structure so your database stays quick as data grows.",
+     "url": "https://webskode.com/services/maintenance-it-support/database-optimization",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/maintenance-it-support/software-upgrades": {
+   "title": "Software Upgrades | WebsKode",
+   "description": "Upgrade frameworks, languages and features safely so your software stays supported and secure.",
+   "canonical": "https://webskode.com/services/maintenance-it-support/software-upgrades",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Maintenance & IT Support",
+       "item": "https://webskode.com/services/maintenance-it-support"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Software Upgrades",
+       "item": "https://webskode.com/services/maintenance-it-support/software-upgrades"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Software Upgrades",
+     "description": "Upgrade frameworks, languages and features safely so your software stays supported and secure.",
+     "url": "https://webskode.com/services/maintenance-it-support/software-upgrades",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/maintenance-it-support/technical-support": {
+   "title": "Technical Support | WebsKode",
+   "description": "A responsive support team for questions, issues and guidance on the systems we manage.",
+   "canonical": "https://webskode.com/services/maintenance-it-support/technical-support",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Maintenance & IT Support",
+       "item": "https://webskode.com/services/maintenance-it-support"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Technical Support",
+       "item": "https://webskode.com/services/maintenance-it-support/technical-support"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Technical Support",
+     "description": "A responsive support team for questions, issues and guidance on the systems we manage.",
+     "url": "https://webskode.com/services/maintenance-it-support/technical-support",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/maintenance-it-support/annual-maintenance-contracts-amc": {
+   "title": "Annual Maintenance Contracts (AMC) | WebsKode",
+   "description": "Fixed-cost yearly plans covering maintenance, updates and priority support for your software.",
+   "canonical": "https://webskode.com/services/maintenance-it-support/annual-maintenance-contracts-amc",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Maintenance & IT Support",
+       "item": "https://webskode.com/services/maintenance-it-support"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Annual Maintenance Contracts (AMC)",
+       "item": "https://webskode.com/services/maintenance-it-support/annual-maintenance-contracts-amc"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Annual Maintenance Contracts (AMC)",
+     "description": "Fixed-cost yearly plans covering maintenance, updates and priority support for your software.",
+     "url": "https://webskode.com/services/maintenance-it-support/annual-maintenance-contracts-amc",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/digital-services": {
+   "title": "Digital Services | WebsKode",
+   "description": "Marketing, advertising and online essentials that help customers find and trust you.",
+   "canonical": "https://webskode.com/services/digital-services",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Digital Services",
+       "item": "https://webskode.com/services/digital-services"
+      }
+     ]
+    }
+   ]
+  },
+  "/services/digital-services/digital-marketing": {
+   "title": "Digital Marketing | WebsKode",
+   "description": "A coordinated mix of search, social and paid campaigns built around measurable business goals.",
+   "canonical": "https://webskode.com/services/digital-services/digital-marketing",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Digital Services",
+       "item": "https://webskode.com/services/digital-services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Digital Marketing",
+       "item": "https://webskode.com/services/digital-services/digital-marketing"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Digital Marketing",
+     "description": "A coordinated mix of search, social and paid campaigns built around measurable business goals.",
+     "url": "https://webskode.com/services/digital-services/digital-marketing",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/digital-services/seo": {
+   "title": "SEO | WebsKode",
+   "description": "Technical fixes, content and link building that improve rankings and bring steady organic traffic.",
+   "canonical": "https://webskode.com/services/digital-services/seo",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Digital Services",
+       "item": "https://webskode.com/services/digital-services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "SEO",
+       "item": "https://webskode.com/services/digital-services/seo"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "SEO",
+     "description": "Technical fixes, content and link building that improve rankings and bring steady organic traffic.",
+     "url": "https://webskode.com/services/digital-services/seo",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/digital-services/google-business-profile-setup-and-management": {
+   "title": "Google Business Profile Setup & Management | WebsKode",
+   "description": "Set up and manage your Google Business Profile so nearby customers find, trust and contact you.",
+   "canonical": "https://webskode.com/services/digital-services/google-business-profile-setup-and-management",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Digital Services",
+       "item": "https://webskode.com/services/digital-services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Google Business Profile Setup & Management",
+       "item": "https://webskode.com/services/digital-services/google-business-profile-setup-and-management"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Google Business Profile Setup & Management",
+     "description": "Set up and manage your Google Business Profile so nearby customers find, trust and contact you.",
+     "url": "https://webskode.com/services/digital-services/google-business-profile-setup-and-management",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/digital-services/social-media-management": {
+   "title": "Social Media Management | WebsKode",
+   "description": "Planned posts, creatives and community replies that keep your brand active and engaging.",
+   "canonical": "https://webskode.com/services/digital-services/social-media-management",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Digital Services",
+       "item": "https://webskode.com/services/digital-services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Social Media Management",
+       "item": "https://webskode.com/services/digital-services/social-media-management"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Social Media Management",
+     "description": "Planned posts, creatives and community replies that keep your brand active and engaging.",
+     "url": "https://webskode.com/services/digital-services/social-media-management",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/digital-services/google-ads": {
+   "title": "Google Ads | WebsKode",
+   "description": "Search, display and shopping campaigns managed to get the most from your budget.",
+   "canonical": "https://webskode.com/services/digital-services/google-ads",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Digital Services",
+       "item": "https://webskode.com/services/digital-services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Google Ads",
+       "item": "https://webskode.com/services/digital-services/google-ads"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Google Ads",
+     "description": "Search, display and shopping campaigns managed to get the most from your budget.",
+     "url": "https://webskode.com/services/digital-services/google-ads",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/digital-services/meta-facebook-ads": {
+   "title": "Meta/Facebook Ads | WebsKode",
+   "description": "Facebook and Instagram ad campaigns with sharp targeting, strong creatives and clear reporting.",
+   "canonical": "https://webskode.com/services/digital-services/meta-facebook-ads",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Digital Services",
+       "item": "https://webskode.com/services/digital-services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Meta/Facebook Ads",
+       "item": "https://webskode.com/services/digital-services/meta-facebook-ads"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Meta/Facebook Ads",
+     "description": "Facebook and Instagram ad campaigns with sharp targeting, strong creatives and clear reporting.",
+     "url": "https://webskode.com/services/digital-services/meta-facebook-ads",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/digital-services/business-email-setup": {
+   "title": "Business Email Setup | WebsKode",
+   "description": "Professional email addresses on your domain, configured securely on all your devices.",
+   "canonical": "https://webskode.com/services/digital-services/business-email-setup",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Digital Services",
+       "item": "https://webskode.com/services/digital-services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Business Email Setup",
+       "item": "https://webskode.com/services/digital-services/business-email-setup"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Business Email Setup",
+     "description": "Professional email addresses on your domain, configured securely on all your devices.",
+     "url": "https://webskode.com/services/digital-services/business-email-setup",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/digital-services/domain-registration": {
+   "title": "Domain Registration | WebsKode",
+   "description": "Help choosing, registering and managing the right domain for your business.",
+   "canonical": "https://webskode.com/services/digital-services/domain-registration",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Digital Services",
+       "item": "https://webskode.com/services/digital-services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Domain Registration",
+       "item": "https://webskode.com/services/digital-services/domain-registration"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Domain Registration",
+     "description": "Help choosing, registering and managing the right domain for your business.",
+     "url": "https://webskode.com/services/digital-services/domain-registration",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/digital-services/web-hosting": {
+   "title": "Web Hosting | WebsKode",
+   "description": "Fast, secure hosting with SSL, backups and support for your website.",
+   "canonical": "https://webskode.com/services/digital-services/web-hosting",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Digital Services",
+       "item": "https://webskode.com/services/digital-services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Web Hosting",
+       "item": "https://webskode.com/services/digital-services/web-hosting"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Web Hosting",
+     "description": "Fast, secure hosting with SSL, backups and support for your website.",
+     "url": "https://webskode.com/services/digital-services/web-hosting",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  },
+  "/services/digital-services/cloud-hosting": {
+   "title": "Cloud Hosting | WebsKode",
+   "description": "Scalable cloud hosting for busy websites and applications, with room to grow.",
+   "canonical": "https://webskode.com/services/digital-services/cloud-hosting",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Services",
+       "item": "https://webskode.com/services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Digital Services",
+       "item": "https://webskode.com/services/digital-services"
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Cloud Hosting",
+       "item": "https://webskode.com/services/digital-services/cloud-hosting"
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Cloud Hosting",
+     "description": "Scalable cloud hosting for busy websites and applications, with room to grow.",
+     "url": "https://webskode.com/services/digital-services/cloud-hosting",
+     "provider": {
+      "@id": "https://webskode.com/#organization"
+     }
+    }
+   ]
+  }
+ },
+ "redirects": {
+  "/services/ui-ux-design": "/services/ui-ux-and-design/ui-ux-design",
+  "/services/graphics-design": "/services/ui-ux-and-design",
+  "/services/seo-digital-marketing": "/services/digital-services",
+  "/services/web-development": "/services/website-development",
+  "/services/app-development": "/services/mobile-app-development",
+  "/services/software-development": "/services/software-application-development",
+  "/services/frontend-backend": "/services/cloud-backend-services",
+  "/services/data-management": "/services/cloud-backend-services"
+ }
+}

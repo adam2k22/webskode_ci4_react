@@ -6,7 +6,31 @@ use Config\Services;
 
 class Home extends BaseController
 {
-    public function index(): string { return view('app'); }
+    public function index(): ResponseInterface|string
+    {
+        // Built by scripts/build-seo.mjs from the React service catalog.
+        $file = APPPATH . 'Data/seo.json';
+        $seo = is_file($file) ? (json_decode(file_get_contents($file), true) ?? []) : [];
+        $path = '/' . trim(uri_string(), '/');
+
+        if (isset($seo['redirects'][$path])) {
+            return $this->response->setStatusCode(301)->setHeader('Location', $seo['redirects'][$path]);
+        }
+
+        $page = $seo['routes'][$path] ?? null;
+        if ($page === null && $seo !== []) {
+            // Unknown service address: the app still loads and sends the visitor on, but search engines get a real 404.
+            $this->response->setStatusCode(404);
+        }
+
+        return view('app', [
+            'title' => $page['title'] ?? $seo['fallback']['title'] ?? 'WebsKode | Website, Software & App Development',
+            'description' => $page['description'] ?? $seo['fallback']['description'] ?? 'WebsKode builds websites, software, data systems and mobile apps, backed by digital marketing and SEO.',
+            'canonical' => $page['canonical'] ?? null,
+            'image' => $seo['image'] ?? null,
+            'jsonLd' => $page === null ? [] : array_merge($seo['siteJsonLd'], $page['jsonLd']),
+        ]);
+    }
 
     public function projects(): ResponseInterface
     {

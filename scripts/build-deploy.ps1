@@ -22,6 +22,26 @@ function Assert-Success([string]$Step) {
     }
 }
 
+# Runs Composer from PATH, or from the Laragon install this project lives in when it is not on PATH.
+function Invoke-Composer {
+    if (Get-Command composer -ErrorAction SilentlyContinue) {
+        & composer @args
+        return
+    }
+    $laragonBin = Join-Path $projectRoot '..\..\bin'
+    $phar = Join-Path $laragonBin 'composer\composer.phar'
+    $php = Get-Command php -ErrorAction SilentlyContinue | Select-Object -First 1 -ExpandProperty Source
+    if (-not $php) {
+        $php = Get-ChildItem -Path (Join-Path $laragonBin 'php\*\php.exe') -ErrorAction SilentlyContinue |
+            Sort-Object { [version]$_.VersionInfo.FileVersion } -Descending |
+            Select-Object -First 1 -ExpandProperty FullName
+    }
+    if (-not $php -or -not (Test-Path -LiteralPath $phar)) {
+        throw 'Composer was not found. Add composer to PATH, or run this from a Laragon terminal.'
+    }
+    & $php $phar @args
+}
+
 try {
     Write-Host '[1/5] Building the React production bundle...'
     Push-Location $projectRoot
@@ -37,7 +57,7 @@ try {
     Copy-Item -Force (Join-Path $PSScriptRoot 'deploy.htaccess') -Destination (Join-Path $stageRoot '.htaccess')
 
     Write-Host '[3/5] Installing production-only PHP dependencies...'
-    & composer install --working-dir=$stageRoot --no-dev --prefer-dist --no-interaction --optimize-autoloader
+    Invoke-Composer install --working-dir=$stageRoot --no-dev --prefer-dist --no-interaction --optimize-autoloader
     Assert-Success 'Composer install'
 
     # Source installs can contain package-level Git metadata; it is not needed in production.

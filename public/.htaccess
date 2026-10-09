@@ -1,6 +1,9 @@
 # Disable directory browsing
 Options -Indexes
 
+# The Vite build also leaves an index.html here; the home page must come from CodeIgniter.
+DirectoryIndex index.php
+
 # ----------------------------------------------------------------------
 # Rewrite engine
 # ----------------------------------------------------------------------

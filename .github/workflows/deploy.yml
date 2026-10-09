@@ -1,0 +1,53 @@
+name: Deploy to Hostinger
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Build the React bundle, SEO data and sitemap
+        run: |
+          npm ci
+          npm run build
+
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          tools: composer
+
+      # Same layout as scripts/build-deploy.ps1: public/ is flattened into the web root.
+      - name: Assemble the deployment folder
+        run: |
+          mkdir stage
+          cp -r app writable stage/
+          cp -r public/. stage/
+          cp env composer.json composer.lock spark preload.php LICENSE stage/
+          cp scripts/deploy-index.php stage/index.php
+          cp scripts/deploy.htaccess stage/.htaccess
+          composer install --working-dir=stage --no-dev --prefer-dist --no-interaction --optimize-autoloader
+
+      # Uploads only files that changed since the last run; files it did not upload (such as .env) are left alone.
+      - name: Upload to Hostinger
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          local-dir: ./stage/
+          server-dir: public_html/

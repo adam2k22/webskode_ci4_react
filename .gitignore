@@ -126,3 +126,7 @@ _modules/*
 
 /results/
 /phpunit.xml
+
+# Deployment packages built by scripts/build-deploy.ps1
+/webskode-deploy-*.zip
+/.deploy-stage-*/
