@@ -28,6 +28,7 @@ const sectionNotes = {
   'about-intro': ['Who we are', 'Our story and the way we like to work.'],
   'about-company': ['Our company', 'What WebsKode does and who we do it for.'],
   'about-values': ['How we work', 'The principles behind every project.'],
+  'policy-page': ['Terms & policies', 'How we work with clients, handle your information and deal with cancellations and refunds.'],
   'contact-page': ['Send an enquiry', 'Fill in the form and we’ll reply within one business day.'],
   'contact-service-types': ['Contact details', 'What we can help with and how to reach us.']
 }

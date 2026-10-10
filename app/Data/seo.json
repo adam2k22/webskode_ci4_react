@@ -192,6 +192,30 @@
     }
    ]
   },
+  "/terms-and-policies": {
+   "title": "Terms & Policies | WebsKode",
+   "description": "WebsKode terms of service, privacy policy, cancellation and refund policy, and cookie information.",
+   "canonical": "https://webskode.com/terms-and-policies",
+   "jsonLd": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://webskode.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Terms & Policies",
+       "item": "https://webskode.com/terms-and-policies"
+      }
+     ]
+    }
+   ]
+  },
   "/contact": {
    "title": "Contact WebsKode | Start Your Project",
    "description": "Contact WebsKode to discuss your website, software, mobile app, data or digital marketing project.",

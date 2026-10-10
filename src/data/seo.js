@@ -11,6 +11,7 @@ const staticPages = {
   '/portfolio': ['Portfolio', 'Portfolio | WebsKode', 'Explore selected website and digital product projects designed and developed by WebsKode.'],
   '/technologies': ['Technologies', 'Technologies | WebsKode', 'Discover the frontend, backend, mobile, database and CMS technologies used by WebsKode.'],
   '/about': ['About Us', 'About WebsKode | Digital Technology Partner', 'Learn about WebsKode, our practical approach and the principles behind our digital work.'],
+  '/terms-and-policies': ['Terms & Policies', 'Terms & Policies | WebsKode', 'WebsKode terms of service, privacy policy, cancellation and refund policy, and cookie information.'],
   '/contact': ['Contact Us', 'Contact WebsKode | Start Your Project', 'Contact WebsKode to discuss your website, software, mobile app, data or digital marketing project.'],
 }
 

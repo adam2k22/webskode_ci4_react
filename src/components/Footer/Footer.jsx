@@ -30,12 +30,12 @@ export default function Footer() {
         <FooterInfographic/>
       </div>
       <div className="footer-columns">
-        <div className="footer-column" role="navigation" aria-label="Company"><h3>Company</h3><div className="footer-column-links"><Link to="/about">About Us</Link><Link to="/services">Services</Link><Link to="/packages">Packages</Link><Link to="/portfolio">Portfolio</Link><Link to="/technologies">Technologies</Link><Link to="/contact">Contact Us</Link><a href="mailto:info@webskode.com">Get a Quote</a></div></div>
+        <div className="footer-column" role="navigation" aria-label="Company"><h3>Company</h3><div className="footer-column-links"><Link to="/about">About Us</Link><Link to="/services">Services</Link><Link to="/packages">Packages</Link><Link to="/portfolio">Portfolio</Link><Link to="/technologies">Technologies</Link><Link to="/contact">Contact Us</Link><Link to="/terms-and-policies">Terms & Policies</Link><a href="mailto:info@webskode.com">Get a Quote</a></div></div>
         <div className="footer-column" role="navigation" aria-label="Services"><h3><Link to="/services">Services</Link></h3><div className="footer-column-links two">{serviceCatalog.map(({ slug, title }) => <Link to={`/services/${slug}`} key={slug}>{title}</Link>)}</div></div>
         <div className="footer-column" role="navigation" aria-label="Packages"><h3><Link to="/packages">Packages</Link></h3><div className="footer-column-links two">{packageCategories.map(({ id, title }) => <Link to={`/packages#${id}`} key={id}>{title}</Link>)}<Link to={`/packages#${launchBundle.id}`}>{launchBundle.title}</Link></div></div>
       </div>
       <div className="footer-social"><a href="#" aria-label="LinkedIn"><FaLinkedinIn/>LinkedIn</a><a href="#" aria-label="Facebook"><FaFacebookF/>Facebook</a><a href="#" aria-label="Instagram"><FaInstagram/>Instagram</a><a href="mailto:info@webskode.com"><Send size={17}/>Email Us</a></div>
-      <div className="footer-bottom"><p>© 2026 <b>WebsKode</b>. All Rights Reserved.</p></div>
+      <div className="footer-bottom"><p>© 2026 <b>WebsKode</b>. All Rights Reserved.</p><Link to="/terms-and-policies">Terms & Policies</Link></div>
     </footer>
     <button className="go-top-button" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} aria-label="Go to top"><ArrowUp/></button>
     <a className="floating-whatsapp-button" href="https://wa.me/919870438617?text=Hello%20WebsKode%2C%20I%20would%20like%20to%20discuss%20a%20project." target="_blank" rel="noreferrer" aria-label="Chat with WebsKode on WhatsApp"><FaWhatsapp/><span>WhatsApp</span></a>

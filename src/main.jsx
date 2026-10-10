@@ -11,10 +11,11 @@ import TechnologiesPage from './pages/Technologies/TechnologiesPage'
 import LogoDesignPage from './pages/Services/LogoDesignPage'
 import ServiceCategoryPage from './pages/Services/ServiceCategoryPage'
 import ServiceItemPage from './pages/Services/ServiceItemPage'
+import TermsPage from './pages/Legal/TermsPage'
 import SiteMeta from './components/SiteMeta/SiteMeta'
 import MouseEffect from './components/MouseEffect/MouseEffect'
 import ChatBot from './components/ChatBot/ChatBot'
 import GuideBot from './components/GuideBot/GuideBot'
 import './style.css'
 
-createRoot(document.getElementById('root')).render(<BrowserRouter><SiteMeta/><MouseEffect/><ChatBot/><GuideBot/><Routes><Route path="/" element={<HomePage/>}/><Route path="/services" element={<ServicesPage/>}/><Route path="/services/logo-design" element={<LogoDesignPage/>}/><Route path="/services/:slug" element={<ServiceCategoryPage/>}/><Route path="/services/:category/:item" element={<ServiceItemPage/>}/><Route path="/packages" element={<PackagesPage/>}/><Route path="/portfolio" element={<PortfolioPage/>}/><Route path="/technologies" element={<TechnologiesPage/>}/><Route path="/about" element={<AboutPage/>}/><Route path="/contact" element={<ContactPage/>}/></Routes></BrowserRouter>)
+createRoot(document.getElementById('root')).render(<BrowserRouter><SiteMeta/><MouseEffect/><ChatBot/><GuideBot/><Routes><Route path="/" element={<HomePage/>}/><Route path="/services" element={<ServicesPage/>}/><Route path="/services/logo-design" element={<LogoDesignPage/>}/><Route path="/services/:slug" element={<ServiceCategoryPage/>}/><Route path="/services/:category/:item" element={<ServiceItemPage/>}/><Route path="/packages" element={<PackagesPage/>}/><Route path="/portfolio" element={<PortfolioPage/>}/><Route path="/technologies" element={<TechnologiesPage/>}/><Route path="/about" element={<AboutPage/>}/><Route path="/contact" element={<ContactPage/>}/><Route path="/terms-and-policies" element={<TermsPage/>}/></Routes></BrowserRouter>)
