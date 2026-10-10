@@ -52,7 +52,139 @@ export default function GuideBot() {
   useEffect(() => {
     const finePointer = window.matchMedia('(pointer: fine)').matches
     const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
-    if (!finePointer || reducedMotion) return undefined
+    if (reducedMotion) return undefined
+
+    // Touch screens have no cursor: the mascot glides to wherever the visitor touches, and can be dragged.
+    if (!finePointer) {
+      const bot = botRef.current
+      const body = bot.querySelector('.guide-bot-mood')
+      const size = 46
+      let frame
+      let section = null
+      let mood = 'idle'
+      let dragging = null
+      let lastActivity = performance.now()
+      let lastScroll = { y: window.scrollY, time: lastActivity }
+      let surprisedUntil = 0
+      let happyUntil = 0
+      let dizzyUntil = 0
+      let talkTimer
+      const clamp = (value, max) => Math.max(4, Math.min(max - size - 4, value))
+      const target = { x: 14, y: window.innerHeight - 74 - size }
+      const position = { ...target }
+      bot.dataset.docked = 'true'
+
+      // The comment shows for ten seconds, then hides until the next section or touch on the mascot.
+      const talk = () => {
+        bot.dataset.talking = 'true'
+        clearTimeout(talkTimer)
+        talkTimer = setTimeout(() => { delete bot.dataset.talking }, 10000)
+      }
+      const goTo = (x, y) => {
+        target.x = clamp(x, window.innerWidth)
+        target.y = clamp(y, window.innerHeight)
+      }
+
+      const animate = () => {
+        const lean = dragging ? 0 : Math.max(-18, Math.min(18, (target.x - position.x) * .25))
+        position.x += (target.x - position.x) * (dragging ? 1 : .16)
+        position.y += (target.y - position.y) * (dragging ? 1 : .16)
+        bot.style.transform = `translate3d(${position.x}px,${position.y}px,0)`
+        bot.style.setProperty('--lean', `${lean}deg`)
+        // Keep the comment box on screen whichever side the mascot is on.
+        const tipWidth = Math.min(240, window.innerWidth - 28)
+        const tipLeft = Math.max(14, Math.min(window.innerWidth - 14 - tipWidth, position.x + size / 2 - tipWidth / 2))
+        bot.style.setProperty('--tip-x', `${tipLeft - position.x}px`)
+        if (position.y < 190) bot.dataset.below = 'true'
+        else delete bot.dataset.below
+        frame = requestAnimationFrame(animate)
+      }
+
+      const tick = () => {
+        const now = performance.now()
+        // Stay out of the way while the visitor uses the chat or the contact form.
+        setActive(!document.querySelector('.chatbot-panel, .contact-drawer'))
+        goTo(target.x, target.y)
+
+        const under = document.elementsFromPoint(position.x + size / 2, position.y + size / 2).find(element => !bot.contains(element))
+        const current = under?.closest('section, .site-footer')
+        if (current && current !== section) {
+          section = current
+          setTip(describe(current))
+          talk()
+        }
+
+        const next = now < surprisedUntil ? 'surprised' : now < dizzyUntil ? 'dizzy' : dragging || now < happyUntil ? 'happy' : now - lastActivity > 12000 ? 'sleepy' : section?.matches(lovedSpots) ? 'love' : 'idle'
+        if (next !== mood) {
+          mood = next
+          bot.dataset.mood = next
+        }
+      }
+
+      // A touch anywhere calls the mascot over; it settles just above the finger so it stays visible.
+      const touch = event => {
+        lastActivity = performance.now()
+        if (dragging || bot.contains(event.target) || event.target.closest?.('.chatbot-panel, .contact-drawer')) return
+        const finger = event.touches[0]
+        if (finger) goTo(finger.clientX - size / 2, finger.clientY - size - 34)
+      }
+      const scroll = () => {
+        const now = performance.now()
+        // A fast flick makes it dizzy.
+        if (Math.abs(window.scrollY - lastScroll.y) / Math.max(now - lastScroll.time, 1) > 4) dizzyUntil = now + 1200
+        lastScroll = { y: window.scrollY, time: now }
+        lastActivity = now
+      }
+      const tap = event => {
+        lastActivity = performance.now()
+        if (bot.contains(event.target)) return
+        surprisedUntil = lastActivity + 500
+        if (event.target.closest('a, button, summary')) happyUntil = lastActivity + 1800
+      }
+
+      // Dragging the mascot itself moves it exactly with the finger, without scrolling the page.
+      const grab = event => {
+        dragging = { x: event.clientX - position.x, y: event.clientY - position.y }
+        body.setPointerCapture(event.pointerId)
+        lastActivity = performance.now()
+        talk()
+      }
+      const drag = event => {
+        if (!dragging) return
+        lastActivity = performance.now()
+        goTo(event.clientX - dragging.x, event.clientY - dragging.y)
+      }
+      const drop = () => { dragging = null }
+
+      const timer = setInterval(tick, 250)
+      frame = requestAnimationFrame(animate)
+      window.addEventListener('touchstart', touch, { passive: true })
+      window.addEventListener('touchmove', touch, { passive: true })
+      window.addEventListener('scroll', scroll, { passive: true })
+      window.addEventListener('click', tap)
+      body.addEventListener('pointerdown', grab)
+      body.addEventListener('pointermove', drag)
+      body.addEventListener('pointerup', drop)
+      body.addEventListener('pointercancel', drop)
+      tick()
+
+      return () => {
+        clearInterval(timer)
+        clearTimeout(talkTimer)
+        cancelAnimationFrame(frame)
+        window.removeEventListener('touchstart', touch)
+        window.removeEventListener('touchmove', touch)
+        window.removeEventListener('scroll', scroll)
+        window.removeEventListener('click', tap)
+        body.removeEventListener('pointerdown', grab)
+        body.removeEventListener('pointermove', drag)
+        body.removeEventListener('pointerup', drop)
+        body.removeEventListener('pointercancel', drop)
+        delete bot.dataset.docked
+        delete bot.dataset.talking
+        delete bot.dataset.below
+      }
+    }
 
     let frame
     let section = null
