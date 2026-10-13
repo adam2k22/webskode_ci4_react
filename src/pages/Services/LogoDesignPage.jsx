@@ -1,7 +1,8 @@
 import { ArrowRight, Check, Compass, Layers3, PenTool, Sparkles } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import PageLayout from '../../components/PageLayout/PageLayout'
-import designTeamImage from '../../assets/service-web-design.png'
+import designTeamImage from '../../assets/service-web-design-1280.webp'
+import Image from '../../components/Image/Image'
 
 const deliverables = [
   'Custom logo concepts shaped around your brand',
@@ -26,7 +27,7 @@ export default function LogoDesignPage() {
         <Link className="logo-design-cta" to="/contact">Start a logo project <ArrowRight size={18}/></Link>
       </div>
       <div className="logo-design-visual">
-        <img src={designTeamImage} alt="Designers collaborating on a brand identity"/>
+        <Image src={designTeamImage} alt="Designers collaborating on a brand identity"/>
         <div className="logo-mark-preview"><span>W</span><small>YOUR BRAND<br/>STARTS HERE</small></div>
         <span className="logo-design-stamp"><Sparkles size={16}/> Made to be remembered</span>
       </div>

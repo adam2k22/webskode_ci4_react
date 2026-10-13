@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react'
 import { ArrowRight } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { serviceCatalog } from '../../data/serviceCatalog'
+import Image from '../Image/Image'
 
 export default function ServicesShowcase() {
   const gridRef = useRef(null)
@@ -13,7 +14,7 @@ export default function ServicesShowcase() {
 
   return <section className="services-showcase" ref={gridRef}>
     {serviceCatalog.map(({ icon: Icon, image, slug, title, blurb, items }, index) => <article key={title} style={{ '--delay': `${index * 90}ms` }}>
-      <Link className="showcase-image" to={`/services/${slug}`}><img src={image} alt={`${title} service`}/><i><Icon/></i><span>Explore services</span></Link>
+      <Link className="showcase-image" to={`/services/${slug}`}><Image src={image} alt={`${title} service`}/><i><Icon/></i><span>Explore services</span></Link>
       <h2>{title}</h2><p>{blurb}</p><Link className="showcase-meta" to={`/services/${slug}`}><span>{items.length} services</span><ArrowRight/></Link>
     </article>)}
   </section>

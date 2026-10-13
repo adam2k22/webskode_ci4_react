@@ -1,5 +1,6 @@
-import engineerImage from '../../assets/why-us-engineer.png'
-import designerImage from '../../assets/why-us-designer.png'
+import engineerImage from '../../assets/why-us-engineer-1122.webp'
+import designerImage from '../../assets/why-us-designer-1122.webp'
+import Image from '../Image/Image'
 
 // Coordinates are in image pixels; both illustrations are 1122 × 1402.
 const characters = {
@@ -26,7 +27,7 @@ export default function LiveCharacter({ character, className = '', alt }) {
   const lampId = `live-character-lamp-${character}`
 
   return <figure className={`live-character ${className}`}>
-    <img src={image} alt={alt}/>
+    <Image src={image} alt={alt} width="1122" height="1402"/>
     <svg viewBox="0 0 1122 1402" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
       <defs>
         <linearGradient id={skinId} x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor={skin[0]}/><stop offset="1" stopColor={skin[1]}/></linearGradient>

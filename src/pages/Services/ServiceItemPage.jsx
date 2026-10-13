@@ -2,6 +2,7 @@ import { ArrowRight, Compass, Sparkles } from 'lucide-react'
 import { Link, Navigate, useParams } from 'react-router-dom'
 import PageLayout from '../../components/PageLayout/PageLayout'
 import ServiceInfographic from '../../components/ServiceInfographic/ServiceInfographic'
+import Image from '../../components/Image/Image'
 import { findCatalogItem, findCategory } from '../../data/serviceCatalog'
 
 export default function ServiceItemPage() {
@@ -24,7 +25,7 @@ export default function ServiceItemPage() {
         <Link className="logo-design-cta" to="/contact">Discuss your project <ArrowRight size={18}/></Link>
       </div>
       <div className="logo-design-visual">
-        <img src={image} alt={`${categoryTitle} illustration`}/>
+        <Image src={image} alt={`${categoryTitle} illustration`}/>
         <span className="logo-design-stamp"><Sparkles size={16}/> {title}</span>
       </div>
     </section>

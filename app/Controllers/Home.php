@@ -29,7 +29,32 @@ class Home extends BaseController
             'canonical' => $page['canonical'] ?? null,
             'image' => $seo['image'] ?? null,
             'jsonLd' => $page === null ? [] : array_merge($seo['siteJsonLd'], $page['jsonLd']),
+            'assets' => $this->assets(),
         ]);
+    }
+
+    /**
+     * The files of the current Vite build, read from its manifest because their names change with every build.
+     * The stylesheet is returned as text so the page can carry it inline instead of waiting on a second request.
+     */
+    private function assets(): array
+    {
+        $file = FCPATH . 'build/manifest.json';
+        $manifest = is_file($file) ? (json_decode(file_get_contents($file), true) ?? []) : [];
+        $entry = $manifest['index.html'] ?? [];
+
+        $css = '';
+        foreach ($entry['css'] ?? [] as $sheet) {
+            $css .= file_get_contents(FCPATH . $sheet);
+        }
+
+        return [
+            'script' => isset($entry['file']) ? '/' . $entry['file'] : null,
+            'imports' => array_map(static fn ($name) => '/' . $manifest[$name]['file'], $entry['imports'] ?? []),
+            'css' => $css,
+            // Only the basic Latin fonts are needed by every page; the extended sets load on demand.
+            'fonts' => array_map(static fn ($font) => '/' . $font, preg_grep('/-latin-(?!ext-)[^\/]+\.woff2$/', $entry['assets'] ?? [])),
+        ];
     }
 
     public function projects(): ResponseInterface

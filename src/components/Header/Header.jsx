@@ -1,7 +1,8 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { ChevronDown, Clock3, Mail, Menu, Rocket, X } from 'lucide-react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
-import webskodeLogo from '../../assets/webskode-logo.png'
+import webskodeLogo from '../../assets/webskode-logo-600.webp'
+import Image from '../Image/Image'
 import { serviceCatalog } from '../../data/serviceCatalog'
 import { launchBundle, packageCategories } from '../../data/packages'
 
@@ -11,12 +12,14 @@ export default function Header() {
   const [menu, setMenu] = useState(false)
   const [openDropdown, setOpenDropdown] = useState(null)
   const [scrolled, setScrolled] = useState(false)
+  const markerRef = useRef(null)
 
+  // The marker covers the first 120px of the page; the header shrinks once it has scrolled out of view.
+  // An observer reports that without reading the scroll position, which would force a layout on every load.
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 120)
-    onScroll()
-    window.addEventListener('scroll', onScroll, { passive: true })
-    return () => window.removeEventListener('scroll', onScroll)
+    const observer = new IntersectionObserver(([entry]) => setScrolled(!entry.isIntersecting))
+    observer.observe(markerRef.current)
+    return () => observer.disconnect()
   }, [])
 
   const closeMenu = () => { setMenu(false); setOpenDropdown(null) }
@@ -27,7 +30,7 @@ export default function Header() {
       <span>Welcome to WebsKode — ideas engineered for growth.</span>
     </div>
     <header className={`site-header ${innerRoute ? 'inner-route' : ''} ${scrolled ? 'scrolled' : ''}`}>
-      <Link className="logo webskode-logo" to="/" aria-label="WebsKode home"><img src={webskodeLogo} alt="WebsKode"/></Link>
+      <Link className="logo webskode-logo" to="/" aria-label="WebsKode home"><Image src={webskodeLogo} alt="WebsKode" sizes="(max-width: 760px) 145px, 205px" width="600" height="200" loading="eager"/></Link>
       <nav className={menu ? 'open' : ''}>
         <NavLink to="/" end onClick={closeMenu}>Home</NavLink>
         <div className={openDropdown === 'services' ? 'nav-dropdown open' : 'nav-dropdown'}>
@@ -50,5 +53,6 @@ export default function Header() {
       <a className="email-link" href="mailto:info@webskode.com"><i><Mail size={21}/></i><span><b>Email Us:</b>info@webskode.com</span></a>
       <button className="menu" onClick={() => setMenu(!menu)} aria-label="Toggle menu">{menu ? <X/> : <Menu/>}</button>
     </header>
+    <span className="scroll-marker" ref={markerRef}/>
   </>
 }

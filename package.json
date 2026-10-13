@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && node scripts/build-seo.mjs",
+    "images": "node scripts/optimize-images.mjs",
+    "build": "node scripts/optimize-images.mjs && vite build && node scripts/build-seo.mjs",
     "preview": "vite preview",
     "deploy:zip": "powershell -ExecutionPolicy Bypass -File scripts/build-deploy.ps1"
   },
@@ -17,5 +18,8 @@
     "react-icons": "^5.7.0",
     "react-router-dom": "^7.18.2",
     "vite": "latest"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.5"
   }
 }

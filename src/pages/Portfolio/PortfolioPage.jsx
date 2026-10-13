@@ -1,5 +1,6 @@
 import { ArrowUpRight, CheckCircle2 } from 'lucide-react'
 import PageLayout from '../../components/PageLayout/PageLayout'
+import Image from '../../components/Image/Image'
 import { portfolioProjects } from '../../data/projects'
 
 const details = [
@@ -14,7 +15,7 @@ export default function PortfolioPage() {
       {portfolioProjects.map((project, index) => {
         const detail = details[index]
         return <article className="case-study" key={project.id}>
-          <a className="case-study-image" href={project.url} target="_blank" rel="noreferrer"><img src={project.image} alt={`${project.title} website preview`} style={{ objectPosition: project.position }}/><span>0{index + 1}</span></a>
+          <a className="case-study-image" href={project.url} target="_blank" rel="noreferrer"><Image src={project.image} alt={`${project.title} website preview`} style={{ objectPosition: project.position }}/><span>0{index + 1}</span></a>
           <div className="case-study-copy"><small>{detail.label} · {project.year}</small><h2>{project.title}</h2><p>{detail.summary}</p><div className="case-study-services">{detail.services.map(service => <span key={service}><CheckCircle2/> {service}</span>)}</div><div className="case-study-result"><b>Project focus</b><p>{detail.result}</p></div><a href={project.url} target="_blank" rel="noreferrer">Explore live project <ArrowUpRight/></a></div>
         </article>
       })}

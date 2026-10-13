@@ -24,11 +24,16 @@
 <?php endif ?>
     <link rel="icon" type="image/svg+xml" href="/webskode-icon.svg?v=4">
     <link rel="shortcut icon" type="image/svg+xml" href="/webskode-icon.svg?v=4">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-    <script type="module" src="/assets/app.js"></script>
-    <link rel="stylesheet" href="/assets/app.css">
+<?php foreach ($assets['fonts'] as $font): ?>
+    <link rel="preload" as="font" type="font/woff2" href="<?= esc($font) ?>" crossorigin>
+<?php endforeach ?>
+<?php foreach ($assets['imports'] as $import): ?>
+    <link rel="modulepreload" href="<?= esc($import) ?>">
+<?php endforeach ?>
+    <style><?= $assets['css'] ?></style>
+<?php if ($assets['script'] !== null): ?>
+    <script type="module" src="<?= esc($assets['script']) ?>"></script>
+<?php endif ?>
 </head>
 <body><div id="root"></div></body>
 </html>

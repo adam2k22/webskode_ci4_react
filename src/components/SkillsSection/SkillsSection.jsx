@@ -1,7 +1,8 @@
 import { useEffect, useRef } from 'react'
 import { BriefcaseBusiness, Megaphone, Search, Target, TrendingUp } from 'lucide-react'
-import dataImage from '../../assets/infographic-data.png'
-import fullstackImage from '../../assets/infographic-fullstack.png'
+import dataImage from '../../assets/infographic-data-1280.webp'
+import fullstackImage from '../../assets/infographic-fullstack-1280.webp'
+import Image from '../Image/Image'
 
 const skills = [
   { icon: Search, name: 'SEO Marketing', score: 85 },
@@ -22,7 +23,7 @@ export default function SkillsSection() {
     <span className="skills-cursor"/>
     <div className="skills-title"><div><i/> Our Skills</div><h2>Certified expertise.<br/>Skilled developers.</h2></div>
     <div className="skills-layout">
-      <div className="skills-visual"><img className="skills-image one" src={fullstackImage} alt="Full-stack engineering infographic"/><img className="skills-image two" src={dataImage} alt="Data systems infographic"/><i><TrendingUp/></i></div>
+      <div className="skills-visual"><Image className="skills-image one" src={fullstackImage} alt="Full-stack engineering infographic"/><Image className="skills-image two" src={dataImage} alt="Data systems infographic"/><i><TrendingUp/></i></div>
       <div className="skills-copy"><p>Turn your ideas into reliable digital products with our experienced design and development team. Our practical expertise helps businesses launch faster, operate efficiently and scale with confidence.</p><div className="skills-grid">{skills.map(({ icon:Icon,name,score },index)=><article key={name} style={{'--delay':`${index*100}ms`}}><i><Icon/></i><div><div className="skill-head"><b>{name}</b><strong>{score}%</strong></div><span className="skill-track"><em style={{'--score':`${score}%`}}/></span></div></article>)}</div></div>
     </div>
   </section>

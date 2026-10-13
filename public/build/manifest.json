@@ -1,0 +1,220 @@
+{
+  "index.html": {
+    "file": "build/index-DL7FMFiQ.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "dynamicImports": [
+      "src/components/MouseEffect/MouseEffect.jsx",
+      "src/components/ChatBot/ChatBot.jsx",
+      "src/components/GuideBot/GuideBot.jsx"
+    ],
+    "css": [
+      "build/index-BvC94UwX.css"
+    ],
+    "assets": [
+      "build/webskode-logo-600-X-5Y9Jtn.webp",
+      "build/Northland-1280-DtrizDHA.webp",
+      "build/Northland-720-7Y8bUpYY.webp",
+      "build/srdiesel-1280-Ba06ApJi.webp",
+      "build/srdiesel-720-B3lxDAH3.webp",
+      "build/travelopedia-1280-C28kN3Ro.webp",
+      "build/travelopedia-720-CbHYsEAu.webp",
+      "build/infographic-data-1280-DHGyBiwa.webp",
+      "build/infographic-data-720-DB1z84fE.webp",
+      "build/infographic-fullstack-1280-zvHk65kZ.webp",
+      "build/infographic-fullstack-720-DsCYoGhG.webp",
+      "build/infographic-marketing-1280-WQx3TeNw.webp",
+      "build/infographic-marketing-720-Cx58Hz6u.webp",
+      "build/infographic-mobile-1280-AqujnKz4.webp",
+      "build/infographic-mobile-720-BIlKibtn.webp",
+      "build/infographic-software-1280-Dz-DMY2e.webp",
+      "build/infographic-software-720-PVOm72Q0.webp",
+      "build/infographic-website-1280-BH8_uOhx.webp",
+      "build/infographic-website-720-4BQ1Xbd7.webp",
+      "build/service-development-1280-BkBXe3g2.webp",
+      "build/service-development-720-DEPH5gf0.webp",
+      "build/service-mobile-1280-78Mw7kSD.webp",
+      "build/service-mobile-720-CmUFc85j.webp",
+      "build/service-web-design-1280-D2pa5uSd.webp",
+      "build/service-web-design-720-BJDkmlOD.webp",
+      "build/webskode-logo-300-BDXcUzB6.webp",
+      "build/why-us-designer-1122-rmabJ3-i.webp",
+      "build/why-us-designer-720-NiDqmTQL.webp",
+      "build/why-us-engineer-1122-DZGK3xs3.webp",
+      "build/why-us-engineer-720-DQFPDCU_.webp",
+      "build/infographic-uiux-iH3NZPyx.svg",
+      "build/dm-sans-latin-Xz1IZZA0.woff2",
+      "build/dm-sans-latin-ext-BOFOeGcA.woff2",
+      "build/manrope-latin-DHIcAJRg.woff2",
+      "build/manrope-latin-ext-Ch3YOpNY.woff2"
+    ]
+  },
+  "src/assets/Portfolio/Northland-1280.webp": {
+    "file": "build/Northland-1280-DtrizDHA.webp",
+    "src": "src/assets/Portfolio/Northland-1280.webp"
+  },
+  "src/assets/Portfolio/Northland-720.webp": {
+    "file": "build/Northland-720-7Y8bUpYY.webp",
+    "src": "src/assets/Portfolio/Northland-720.webp"
+  },
+  "src/assets/Portfolio/srdiesel-1280.webp": {
+    "file": "build/srdiesel-1280-Ba06ApJi.webp",
+    "src": "src/assets/Portfolio/srdiesel-1280.webp"
+  },
+  "src/assets/Portfolio/srdiesel-720.webp": {
+    "file": "build/srdiesel-720-B3lxDAH3.webp",
+    "src": "src/assets/Portfolio/srdiesel-720.webp"
+  },
+  "src/assets/Portfolio/travelopedia-1280.webp": {
+    "file": "build/travelopedia-1280-C28kN3Ro.webp",
+    "src": "src/assets/Portfolio/travelopedia-1280.webp"
+  },
+  "src/assets/Portfolio/travelopedia-720.webp": {
+    "file": "build/travelopedia-720-CbHYsEAu.webp",
+    "src": "src/assets/Portfolio/travelopedia-720.webp"
+  },
+  "src/assets/fonts/dm-sans-latin-ext.woff2": {
+    "file": "build/dm-sans-latin-ext-BOFOeGcA.woff2",
+    "src": "src/assets/fonts/dm-sans-latin-ext.woff2"
+  },
+  "src/assets/fonts/dm-sans-latin.woff2": {
+    "file": "build/dm-sans-latin-Xz1IZZA0.woff2",
+    "src": "src/assets/fonts/dm-sans-latin.woff2"
+  },
+  "src/assets/fonts/manrope-latin-ext.woff2": {
+    "file": "build/manrope-latin-ext-Ch3YOpNY.woff2",
+    "src": "src/assets/fonts/manrope-latin-ext.woff2"
+  },
+  "src/assets/fonts/manrope-latin.woff2": {
+    "file": "build/manrope-latin-DHIcAJRg.woff2",
+    "src": "src/assets/fonts/manrope-latin.woff2"
+  },
+  "src/assets/infographic-data-1280.webp": {
+    "file": "build/infographic-data-1280-DHGyBiwa.webp",
+    "src": "src/assets/infographic-data-1280.webp"
+  },
+  "src/assets/infographic-data-720.webp": {
+    "file": "build/infographic-data-720-DB1z84fE.webp",
+    "src": "src/assets/infographic-data-720.webp"
+  },
+  "src/assets/infographic-fullstack-1280.webp": {
+    "file": "build/infographic-fullstack-1280-zvHk65kZ.webp",
+    "src": "src/assets/infographic-fullstack-1280.webp"
+  },
+  "src/assets/infographic-fullstack-720.webp": {
+    "file": "build/infographic-fullstack-720-DsCYoGhG.webp",
+    "src": "src/assets/infographic-fullstack-720.webp"
+  },
+  "src/assets/infographic-marketing-1280.webp": {
+    "file": "build/infographic-marketing-1280-WQx3TeNw.webp",
+    "src": "src/assets/infographic-marketing-1280.webp"
+  },
+  "src/assets/infographic-marketing-720.webp": {
+    "file": "build/infographic-marketing-720-Cx58Hz6u.webp",
+    "src": "src/assets/infographic-marketing-720.webp"
+  },
+  "src/assets/infographic-mobile-1280.webp": {
+    "file": "build/infographic-mobile-1280-AqujnKz4.webp",
+    "src": "src/assets/infographic-mobile-1280.webp"
+  },
+  "src/assets/infographic-mobile-720.webp": {
+    "file": "build/infographic-mobile-720-BIlKibtn.webp",
+    "src": "src/assets/infographic-mobile-720.webp"
+  },
+  "src/assets/infographic-software-1280.webp": {
+    "file": "build/infographic-software-1280-Dz-DMY2e.webp",
+    "src": "src/assets/infographic-software-1280.webp"
+  },
+  "src/assets/infographic-software-720.webp": {
+    "file": "build/infographic-software-720-PVOm72Q0.webp",
+    "src": "src/assets/infographic-software-720.webp"
+  },
+  "src/assets/infographic-uiux.svg": {
+    "file": "build/infographic-uiux-iH3NZPyx.svg",
+    "src": "src/assets/infographic-uiux.svg"
+  },
+  "src/assets/infographic-website-1280.webp": {
+    "file": "build/infographic-website-1280-BH8_uOhx.webp",
+    "src": "src/assets/infographic-website-1280.webp"
+  },
+  "src/assets/infographic-website-720.webp": {
+    "file": "build/infographic-website-720-4BQ1Xbd7.webp",
+    "src": "src/assets/infographic-website-720.webp"
+  },
+  "src/assets/service-development-1280.webp": {
+    "file": "build/service-development-1280-BkBXe3g2.webp",
+    "src": "src/assets/service-development-1280.webp"
+  },
+  "src/assets/service-development-720.webp": {
+    "file": "build/service-development-720-DEPH5gf0.webp",
+    "src": "src/assets/service-development-720.webp"
+  },
+  "src/assets/service-mobile-1280.webp": {
+    "file": "build/service-mobile-1280-78Mw7kSD.webp",
+    "src": "src/assets/service-mobile-1280.webp"
+  },
+  "src/assets/service-mobile-720.webp": {
+    "file": "build/service-mobile-720-CmUFc85j.webp",
+    "src": "src/assets/service-mobile-720.webp"
+  },
+  "src/assets/service-web-design-1280.webp": {
+    "file": "build/service-web-design-1280-D2pa5uSd.webp",
+    "src": "src/assets/service-web-design-1280.webp"
+  },
+  "src/assets/service-web-design-720.webp": {
+    "file": "build/service-web-design-720-BJDkmlOD.webp",
+    "src": "src/assets/service-web-design-720.webp"
+  },
+  "src/assets/webskode-logo-300.webp": {
+    "file": "build/webskode-logo-300-BDXcUzB6.webp",
+    "src": "src/assets/webskode-logo-300.webp"
+  },
+  "src/assets/webskode-logo-600.webp": {
+    "file": "build/webskode-logo-600-X-5Y9Jtn.webp",
+    "src": "src/assets/webskode-logo-600.webp"
+  },
+  "src/assets/why-us-designer-1122.webp": {
+    "file": "build/why-us-designer-1122-rmabJ3-i.webp",
+    "src": "src/assets/why-us-designer-1122.webp"
+  },
+  "src/assets/why-us-designer-720.webp": {
+    "file": "build/why-us-designer-720-NiDqmTQL.webp",
+    "src": "src/assets/why-us-designer-720.webp"
+  },
+  "src/assets/why-us-engineer-1122.webp": {
+    "file": "build/why-us-engineer-1122-DZGK3xs3.webp",
+    "src": "src/assets/why-us-engineer-1122.webp"
+  },
+  "src/assets/why-us-engineer-720.webp": {
+    "file": "build/why-us-engineer-720-DQFPDCU_.webp",
+    "src": "src/assets/why-us-engineer-720.webp"
+  },
+  "src/components/ChatBot/ChatBot.jsx": {
+    "file": "build/ChatBot-w6x5qkKf.js",
+    "name": "ChatBot",
+    "src": "src/components/ChatBot/ChatBot.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "src/components/GuideBot/GuideBot.jsx": {
+    "file": "build/GuideBot-DS0XVhHk.js",
+    "name": "GuideBot",
+    "src": "src/components/GuideBot/GuideBot.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "src/components/MouseEffect/MouseEffect.jsx": {
+    "file": "build/MouseEffect-BUbZA_dA.js",
+    "name": "MouseEffect",
+    "src": "src/components/MouseEffect/MouseEffect.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  }
+}

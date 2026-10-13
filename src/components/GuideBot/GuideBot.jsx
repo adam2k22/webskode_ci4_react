@@ -55,23 +55,32 @@ export default function GuideBot() {
     const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
     if (reducedMotion) return undefined
 
+    // Reading the window size forces a layout, so it is measured once and again only when the window resizes.
+    const viewport = { width: window.innerWidth, height: window.innerHeight }
+    const measure = () => {
+      viewport.width = window.innerWidth
+      viewport.height = window.innerHeight
+    }
+
     // Touch screens have no cursor: the mascot glides to wherever the visitor touches, and can be dragged.
     if (!finePointer) {
       const bot = botRef.current
       const body = bot.querySelector('.guide-bot-mood')
       const size = 46
-      let frame
+      let frame = null
       let section = null
       let mood = 'idle'
       let dragging = null
+      // Set whenever the mascot or the page moves, so the section under it is only looked up when it may have changed.
+      let moved = true
       let lastActivity = performance.now()
-      let lastScroll = { y: window.scrollY, time: lastActivity }
+      let lastScroll = null
       let surprisedUntil = 0
       let happyUntil = 0
       let dizzyUntil = 0
       let talkTimer
       const clamp = (value, max) => Math.max(4, Math.min(max - size - 4, value))
-      const target = { x: 14, y: window.innerHeight - 74 - size }
+      const target = { x: 14, y: viewport.height - 74 - size }
       const position = { ...target }
       bot.dataset.docked = 'true'
 
@@ -82,37 +91,43 @@ export default function GuideBot() {
         talkTimer = setTimeout(() => { delete bot.dataset.talking }, 10000)
       }
       const goTo = (x, y) => {
-        target.x = clamp(x, window.innerWidth)
-        target.y = clamp(y, window.innerHeight)
+        target.x = clamp(x, viewport.width)
+        target.y = clamp(y, viewport.height)
+        if (frame === null) frame = requestAnimationFrame(animate)
       }
 
+      // Runs only while the mascot is travelling; once it arrives the loop stops until the next goTo.
       const animate = () => {
-        const lean = dragging ? 0 : Math.max(-18, Math.min(18, (target.x - position.x) * .25))
-        position.x += (target.x - position.x) * (dragging ? 1 : .16)
-        position.y += (target.y - position.y) * (dragging ? 1 : .16)
+        const arrived = Math.abs(target.x - position.x) < .5 && Math.abs(target.y - position.y) < .5
+        const lean = dragging || arrived ? 0 : Math.max(-18, Math.min(18, (target.x - position.x) * .25))
+        position.x += (target.x - position.x) * (dragging || arrived ? 1 : .16)
+        position.y += (target.y - position.y) * (dragging || arrived ? 1 : .16)
         bot.style.transform = `translate3d(${position.x}px,${position.y}px,0)`
         bot.style.setProperty('--lean', `${lean}deg`)
         // Keep the comment box on screen whichever side the mascot is on.
-        const tipWidth = Math.min(240, window.innerWidth - 28)
-        const tipLeft = Math.max(14, Math.min(window.innerWidth - 14 - tipWidth, position.x + size / 2 - tipWidth / 2))
+        const tipWidth = Math.min(240, viewport.width - 28)
+        const tipLeft = Math.max(14, Math.min(viewport.width - 14 - tipWidth, position.x + size / 2 - tipWidth / 2))
         bot.style.setProperty('--tip-x', `${tipLeft - position.x}px`)
         if (position.y < 190) bot.dataset.below = 'true'
         else delete bot.dataset.below
-        frame = requestAnimationFrame(animate)
+        moved = true
+        frame = arrived && !dragging ? null : requestAnimationFrame(animate)
       }
 
       const tick = () => {
         const now = performance.now()
         // Stay out of the way while the visitor uses the chat or the contact form.
         setActive(!document.querySelector('.chatbot-panel, .contact-drawer'))
-        goTo(target.x, target.y)
 
-        const under = document.elementsFromPoint(position.x + size / 2, position.y + size / 2).find(element => !bot.contains(element))
-        const current = under?.closest('section, .site-footer')
-        if (current && current !== section) {
-          section = current
-          setTip(describe(current))
-          talk()
+        if (moved) {
+          moved = false
+          const under = document.elementsFromPoint(position.x + size / 2, position.y + size / 2).find(element => !bot.contains(element))
+          const current = under?.closest('section, .site-footer')
+          if (current && current !== section) {
+            section = current
+            setTip(describe(current))
+            talk()
+          }
         }
 
         const next = now < surprisedUntil ? 'surprised' : now < dizzyUntil ? 'dizzy' : dragging || now < happyUntil ? 'happy' : now - lastActivity > 12000 ? 'sleepy' : section?.matches(lovedSpots) ? 'love' : 'idle'
@@ -132,9 +147,14 @@ export default function GuideBot() {
       const scroll = () => {
         const now = performance.now()
         // A fast flick makes it dizzy.
-        if (Math.abs(window.scrollY - lastScroll.y) / Math.max(now - lastScroll.time, 1) > 4) dizzyUntil = now + 1200
+        if (lastScroll && Math.abs(window.scrollY - lastScroll.y) / Math.max(now - lastScroll.time, 1) > 4) dizzyUntil = now + 1200
         lastScroll = { y: window.scrollY, time: now }
         lastActivity = now
+        moved = true
+      }
+      const resize = () => {
+        measure()
+        goTo(target.x, target.y)
       }
       const tap = event => {
         lastActivity = performance.now()
@@ -162,12 +182,12 @@ export default function GuideBot() {
       window.addEventListener('touchstart', touch, { passive: true })
       window.addEventListener('touchmove', touch, { passive: true })
       window.addEventListener('scroll', scroll, { passive: true })
+      window.addEventListener('resize', resize)
       window.addEventListener('click', tap)
       body.addEventListener('pointerdown', grab)
       body.addEventListener('pointermove', drag)
       body.addEventListener('pointerup', drop)
       body.addEventListener('pointercancel', drop)
-      tick()
 
       return () => {
         clearInterval(timer)
@@ -176,6 +196,7 @@ export default function GuideBot() {
         window.removeEventListener('touchstart', touch)
         window.removeEventListener('touchmove', touch)
         window.removeEventListener('scroll', scroll)
+        window.removeEventListener('resize', resize)
         window.removeEventListener('click', tap)
         body.removeEventListener('pointerdown', grab)
         body.removeEventListener('pointermove', drag)
@@ -228,8 +249,8 @@ export default function GuideBot() {
         position.y += (mouse.y - position.y) * .14
         bot.style.transform = `translate3d(${position.x}px,${position.y}px,0)`
         bot.style.setProperty('--lean', `${lean}deg`)
-        bot.classList.toggle('flip-x', position.x > window.innerWidth - 340)
-        bot.classList.toggle('flip-y', position.y > window.innerHeight - 150)
+        bot.classList.toggle('flip-x', position.x > viewport.width - 340)
+        bot.classList.toggle('flip-y', position.y > viewport.height - 150)
 
         // Shaking the mouse makes it dizzy; leaving it still for a while sends it to sleep.
         const now = performance.now()
@@ -249,6 +270,7 @@ export default function GuideBot() {
 
     window.addEventListener('mousemove', move, { passive: true })
     window.addEventListener('scroll', scroll, { passive: true })
+    window.addEventListener('resize', measure)
     window.addEventListener('mouseout', leave)
     window.addEventListener('mousedown', press)
     frame = requestAnimationFrame(animate)
@@ -256,6 +278,7 @@ export default function GuideBot() {
     return () => {
       window.removeEventListener('mousemove', move)
       window.removeEventListener('scroll', scroll)
+      window.removeEventListener('resize', measure)
       window.removeEventListener('mouseout', leave)
       window.removeEventListener('mousedown', press)
       cancelAnimationFrame(frame)

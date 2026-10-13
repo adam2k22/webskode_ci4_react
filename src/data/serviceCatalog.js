@@ -1,11 +1,11 @@
 import { Bot, Cloud, Globe2, LayoutDashboard, Megaphone, MonitorCog, Plug, ShoppingCart, Smartphone, Wrench } from 'lucide-react'
 import uiuxImage from '../assets/infographic-uiux.svg'
-import websiteImage from '../assets/infographic-website.png'
-import fullstackImage from '../assets/infographic-fullstack.png'
-import dataImage from '../assets/infographic-data.png'
-import softwareImage from '../assets/infographic-software.png'
-import mobileImage from '../assets/infographic-mobile.png'
-import marketingImage from '../assets/infographic-marketing.png'
+import websiteImage from '../assets/infographic-website-1280.webp'
+import fullstackImage from '../assets/infographic-fullstack-1280.webp'
+import dataImage from '../assets/infographic-data-1280.webp'
+import softwareImage from '../assets/infographic-software-1280.webp'
+import mobileImage from '../assets/infographic-mobile-1280.webp'
+import marketingImage from '../assets/infographic-marketing-1280.webp'
 
 const slugify = title => title.toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
 

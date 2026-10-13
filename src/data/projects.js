@@ -1,6 +1,6 @@
-import travelopediaImage from '../assets/Portfolio/travelopedia.png'
-import srDieselImage from '../assets/Portfolio/srdiesel.png'
-import northlandImage from '../assets/Portfolio/Northland.png'
+import travelopediaImage from '../assets/Portfolio/travelopedia-1280.webp'
+import srDieselImage from '../assets/Portfolio/srdiesel-1280.webp'
+import northlandImage from '../assets/Portfolio/Northland-1280.webp'
 
 export const portfolioProjects = [
   { id: 1, title: 'TravelOPedia India', type: 'Travel & event platform', year: '2026', url: 'https://travelopediaindia.com/', image: travelopediaImage, position: 'center' },
