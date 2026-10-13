@@ -62,9 +62,9 @@ DirectoryIndex index.php
 <IfModule mod_headers.c>
 	# A rebuilt file gets a new name, so the old one can be kept for a year without ever going stale.
 	Header set Cache-Control "public, max-age=31536000, immutable" env=IMMUTABLE
-	# Files that keep their name (icon, logo) are kept for a month.
-	<FilesMatch "\.(svg|png|jpe?g|webp|ico|woff2)$">
-		Header set Cache-Control "public, max-age=2592000" env=!IMMUTABLE
+	# The icon and logo keep their name, so they are kept for a month. Matching them by name keeps this rule off build/.
+	<FilesMatch "^webskode-(icon\.svg|logo\.png)$">
+		Header set Cache-Control "public, max-age=2592000"
 	</FilesMatch>
 </IfModule>
 
