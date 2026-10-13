@@ -1,14 +1,9 @@
 {
   "index.html": {
-    "file": "build/index-DL7FMFiQ.js",
+    "file": "build/index-Iv2_zHbm.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
-    "dynamicImports": [
-      "src/components/MouseEffect/MouseEffect.jsx",
-      "src/components/ChatBot/ChatBot.jsx",
-      "src/components/GuideBot/GuideBot.jsx"
-    ],
     "css": [
       "build/index-BvC94UwX.css"
     ],
@@ -189,32 +184,5 @@
   "src/assets/why-us-engineer-720.webp": {
     "file": "build/why-us-engineer-720-DQFPDCU_.webp",
     "src": "src/assets/why-us-engineer-720.webp"
-  },
-  "src/components/ChatBot/ChatBot.jsx": {
-    "file": "build/ChatBot-w6x5qkKf.js",
-    "name": "ChatBot",
-    "src": "src/components/ChatBot/ChatBot.jsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "index.html"
-    ]
-  },
-  "src/components/GuideBot/GuideBot.jsx": {
-    "file": "build/GuideBot-DS0XVhHk.js",
-    "name": "GuideBot",
-    "src": "src/components/GuideBot/GuideBot.jsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "index.html"
-    ]
-  },
-  "src/components/MouseEffect/MouseEffect.jsx": {
-    "file": "build/MouseEffect-BUbZA_dA.js",
-    "name": "MouseEffect",
-    "src": "src/components/MouseEffect/MouseEffect.jsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "index.html"
-    ]
   }
 }
