@@ -19,7 +19,7 @@ export default function TechnologyStack() {
     <div className="stack-heading"><div><i/> Our Technology Stack</div><h2>Smart tools fueling creative &<br/>scalable development</h2></div>
     <div className="stack-grid">{technologies.map(({ score, icon: Icon, name, type, copy }) => <article key={name}>
       <div className="stack-score"><strong>{score}%</strong><span><i style={{ '--score': `${score}%` }}/></span></div>
-      <p>{copy}</p><Icon/><div className="stack-meta"><h3>{name}</h3><span>{type}</span></div>
+      <p>{copy}</p><Icon aria-hidden="true"/><div className="stack-meta"><h3>{name}</h3><span>{type}</span></div>
     </article>)}</div>
     <div className="stack-cta"><span>WK</span><p>Let’s make something great work together.</p><Link to="/contact">Get Free Quote <ArrowUpRight size={17}/></Link></div>
   </section>

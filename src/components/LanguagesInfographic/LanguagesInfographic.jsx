@@ -102,7 +102,7 @@ export default function LanguagesInfographic() {
       <path d="M110 318h340v10a14 14 0 0 1-14 14h-312a14 14 0 0 1-14-14z" fill={PANEL}/>
 
       <g key={active}>
-        <FileIcon x="175" y="122" size={12} color={ORANGE}/>
+        <FileIcon x="175" y="122" size={12} color={ORANGE} aria-hidden="true"/>
         <text x="193" y="132" style={{ fontSize: 10 }} fill={CREAM}>{file}</text>
         <text x="124" y="334" style={{ fontSize: 9.5 }} fill={PEACH}>{name}</text>
         <text x="436" y="334" textAnchor="end" style={{ fontSize: 9.5 }} fill={MUTED}>{code.length} lines</text>
@@ -130,7 +130,7 @@ export default function LanguagesInfographic() {
         const x = dockStart + i * (TILE + TILE_GAP)
         return <g className={i === active ? 'lig-tile is-active' : 'lig-tile'} key={label}>
           <rect x={x} y="372" width={TILE} height={TILE} rx="13"/>
-          <Icon x={x + 12} y="384" size={22}/>
+          <Icon x={x + 12} y="384" size={22} aria-hidden="true"/>
         </g>
       })}
     </svg>

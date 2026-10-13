@@ -312,3 +312,5 @@ header{background:#fff;color:#2a160e;border:1px solid #ffe1d2;box-shadow:0 12px 
 .footer-bottom a:hover{color:var(--orange)}
 @media(max-width:900px){.policy-page{grid-template-columns:1fr;gap:34px;padding:45px 5vw 80px}.policy-nav{position:static;display:flex;flex-wrap:wrap;gap:6px}.policy-nav span{width:100%;padding:0 0 6px}.policy-nav a{background:#ffe9de;color:#c23c0c;padding:8px 13px}}
 .scroll-marker{position:absolute;top:0;left:0;width:1px;height:120px;visibility:hidden;pointer-events:none}
+/* The brand orange is too light behind white text or as text on the pale panels; these four use the darker shade to stay readable. */
+.why-cta,.core-intro>div:last-child a{background:#c23c0c}.core-trust p a,.packages-note a{color:#c23c0c}
