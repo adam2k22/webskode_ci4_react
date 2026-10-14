@@ -91,7 +91,7 @@ class Home extends BaseController
         $email->setSubject('New website enquiry');
         $email->setMessage("Name: {$data['name']}\nEmail: {$data['email']}\nMobile: {$data['mobile']}\n\nMessage:\n{$data['message']}");
         if (! $email->send()) {
-            log_message('error', 'Contact enquiry email could not be sent.');
+            log_message('error', 'Contact enquiry email could not be sent via {host}: {reason}', ['host' => $emailConfig->SMTPHost, 'reason' => trim(strip_tags($email->printDebugger([])))]);
             return $this->response->setStatusCode(503)->setJSON(['ok'=>false,'message'=>'We could not send your enquiry right now. Please try again later.']);
         }
         return $this->response->setJSON(['ok'=>true,'message'=>'Thanks — we’ll be in touch within one business day.']);
