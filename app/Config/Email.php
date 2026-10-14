@@ -28,7 +28,7 @@ class Email extends BaseConfig
     /**
      * SMTP Server Hostname
      */
-    public string $SMTPHost = 'smtp-relay.brevo.com';
+    public string $SMTPHost = 'email-smtp.ap-south-1.amazonaws.com';
 
     /**
      * Which SMTP authentication method to use: login, plain

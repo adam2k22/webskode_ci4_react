@@ -1,11 +1,11 @@
 {
   "index.html": {
-    "file": "build/index-BKuC3Yt1.js",
+    "file": "build/index-CZqgghBf.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
     "css": [
-      "build/index-DqoWuoLQ.css"
+      "build/index-aUT8lqOE.css"
     ],
     "assets": [
       "build/webskode-logo-600-X-5Y9Jtn.webp",
@@ -38,7 +38,7 @@
       "build/why-us-designer-720-NiDqmTQL.webp",
       "build/why-us-engineer-1122-DZGK3xs3.webp",
       "build/why-us-engineer-720-DQFPDCU_.webp",
-      "build/infographic-uiux-iH3NZPyx.svg",
+      "build/infographic-uiux-CUQ8R_P_.svg",
       "build/dm-sans-latin-Xz1IZZA0.woff2",
       "build/dm-sans-latin-ext-BOFOeGcA.woff2",
       "build/manrope-latin-DHIcAJRg.woff2",
@@ -126,7 +126,7 @@
     "src": "src/assets/infographic-software-720.webp"
   },
   "src/assets/infographic-uiux.svg": {
-    "file": "build/infographic-uiux-iH3NZPyx.svg",
+    "file": "build/infographic-uiux-CUQ8R_P_.svg",
     "src": "src/assets/infographic-uiux.svg"
   },
   "src/assets/infographic-website-1280.webp": {

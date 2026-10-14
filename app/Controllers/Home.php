@@ -78,6 +78,7 @@ class Home extends BaseController
             $smtpSettings = (new DotEnv(FCPATH))->parse() ?? [];
             $emailConfig->SMTPUser = $emailConfig->SMTPUser ?: ($smtpSettings['email.SMTPUser'] ?? '');
             $emailConfig->SMTPPass = $emailConfig->SMTPPass ?: ($smtpSettings['email.SMTPPass'] ?? '');
+            $emailConfig->SMTPHost = $smtpSettings['email.SMTPHost'] ?? $emailConfig->SMTPHost;
         }
         if ($emailConfig->SMTPUser === '' || $emailConfig->SMTPPass === '') {
             log_message('error', 'Contact enquiry email is not configured: SMTP credentials are missing.');

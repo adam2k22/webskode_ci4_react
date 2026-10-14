@@ -35,5 +35,7 @@
     <script type="module" src="<?= esc($assets['script']) ?>"></script>
 <?php endif ?>
 </head>
-<body><div id="root"></div></body>
+<body><div id="root"></div>
+    <script src="https://chat.webskode.com/widget.js" data-agent-id="agt_o7vexzc9IOP9CqDDCyN-qg" async></script>
+</body>
 </html>

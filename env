@@ -58,8 +58,11 @@
 #--------------------------------------------------------------------
 # CONTACT FORM EMAIL (set these in the server's .env file)
 #--------------------------------------------------------------------
-# email.SMTPUser = your-brevo-smtp-login
-# email.SMTPPass = your-brevo-smtp-key
+# Amazon SES SMTP credentials (SES console > SMTP settings > Create SMTP credentials).
+# These are NOT your IAM access keys; SES generates a separate SMTP username/password.
+# email.SMTPHost = email-smtp.ap-south-1.amazonaws.com
+# email.SMTPUser = your-ses-smtp-username
+# email.SMTPPass = your-ses-smtp-password
 
 #--------------------------------------------------------------------
 # SESSION
